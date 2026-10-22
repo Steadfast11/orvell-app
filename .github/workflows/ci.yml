@@ -27,7 +27,7 @@ jobs:
         run: |
           SDKMANAGER="${ANDROID_HOME:-$ANDROID_SDK_ROOT}/cmdline-tools/latest/bin/sdkmanager"
           yes | "$SDKMANAGER" --licenses > /dev/null || true
-          "$SDKMANAGER" "platforms;android-37"
+          "$SDKMANAGER" "platforms;android-37.0"
 
       - name: Run JVM tests and debug build
         run: ./gradlew :watch-protocol:test :app:testDebugUnitTest :app:assembleDebug --no-daemon
