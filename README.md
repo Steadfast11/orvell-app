@@ -131,8 +131,9 @@ anything — wrist-watch heart-rate numbers are for information only.
 
 ## License
 
-Proprietary — **all rights reserved**. The source is published so people can read and review it; copying, modification,
-distribution and resale need the author's written permission (see [LICENSE](LICENSE)). This public repository starts from the
+[MIT](LICENSE) — you may use, copy, modify and distribute the code, including commercially, as long as the copyright and license
+notice are kept. The code is provided as-is, without warranty. The bundled Manrope font (SIL OFL-1.1) and Apache-2.0 libraries keep
+their own licenses (shown in the app under Settings → About → Open-source licenses). This public repository starts from the
 current, independently written codebase.
 
 ## Contact
@@ -172,4 +173,4 @@ qayta ulanganda nollanishi mumkin; Android Bluetooth menyusida soatni bosmang (a
 
 **Aloqa:** Telegram — [@Astra_AI_Agent](https://t.me/Astra_AI_Agent) · GitHub — [@Steadfast11](https://github.com/Steadfast11)
 
-**Litsenziya:** yopiq (barcha huquqlar himoyalangan); kod faqat ko'rib chiqish uchun ochiq. Orvell tibbiy qurilma emas.
+**Litsenziya:** [MIT](LICENSE) — kodni ishlatish, nusxalash, o'zgartirish va tarqatish mumkin. Orvell tibbiy qurilma emas.

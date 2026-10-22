@@ -205,8 +205,8 @@
     <string name="about_tagline">Soatingiz. Ma\'lumotingiz. Qoidalaringiz.</string>
     <string name="about_developer_on">Dasturchi rejimi yoqilgan</string>
     <string name="about_license">Litsenziya</string>
-    <string name="about_license_sub">Yopiq kodli dastur. Barcha huquqlar himoyalangan.</string>
-    <string name="about_license_value">Yopiq</string>
+    <string name="about_license_sub">Ochiq kodli dastur (MIT litsenziyasi).</string>
+    <string name="about_license_value">MIT</string>
     <string name="about_thanks">Minnatdorchilik</string>
     <string name="about_thanks_text">Eski versiyalar Gadgetbridge loyihasi (AGPL-3.0) asosida yozilgan. Hozirgi soat protokoli mustaqil ravishda, o\'z Bluetooth loglarimiz asosida qayta yozilgan. Orvell Gadgetbridge, FitCloudPro yoki TopStep bilan bog\'liq emas.</string>
     <string name="about_author">Muallif</string>

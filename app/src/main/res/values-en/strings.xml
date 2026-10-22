@@ -204,8 +204,8 @@
     <string name="about_tagline">Your watch. Your data. Your rules.</string>
     <string name="about_developer_on">Developer mode is on</string>
     <string name="about_license">License</string>
-    <string name="about_license_sub">Proprietary software. All rights reserved.</string>
-    <string name="about_license_value">Proprietary</string>
+    <string name="about_license_sub">Open-source software (MIT License).</string>
+    <string name="about_license_value">MIT</string>
     <string name="about_thanks">Acknowledgements</string>
     <string name="about_thanks_text">Earlier versions were based on the Gadgetbridge project (AGPL-3.0). The current watch protocol was written independently from our own Bluetooth captures. Orvell is not affiliated with Gadgetbridge, FitCloudPro or TopStep.</string>
     <string name="about_author">Author</string>

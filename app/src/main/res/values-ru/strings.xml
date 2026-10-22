@@ -210,8 +210,8 @@
     <string name="about_tagline">Ваши часы. Ваши данные. Ваши правила.</string>
     <string name="about_developer_on">Режим разработчика включён</string>
     <string name="about_license">Лицензия</string>
-    <string name="about_license_sub">Программа с закрытым исходным кодом. Все права защищены.</string>
-    <string name="about_license_value">Закрытая</string>
+    <string name="about_license_sub">Программа с открытым исходным кодом (лицензия MIT).</string>
+    <string name="about_license_value">MIT</string>
     <string name="about_thanks">Благодарности</string>
     <string name="about_thanks_text">Ранние версии основывались на проекте Gadgetbridge (AGPL-3.0). Текущий протокол часов написан независимо, на основе собственных Bluetooth-логов. Orvell не связан с Gadgetbridge, FitCloudPro или TopStep.</string>
     <string name="about_author">Автор</string>
