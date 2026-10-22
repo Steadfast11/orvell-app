@@ -1,0 +1,657 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Asosiy til: o'zbekcha (lotin). Tarjimalar: values-en, values-ru. Kalitlar uchala faylda bir xil. -->
+<resources xmlns:tools="http://schemas.android.com/tools" tools:locale="uz">
+
+    <!-- Umumiy -->
+    <string name="common_continue">Davom etish</string>
+    <string name="common_cancel">Bekor qilish</string>
+    <string name="common_save">Saqlash</string>
+    <string name="common_select">Tanlash</string>
+    <string name="common_grant">Ruxsat berish</string>
+    <string name="common_off">O\'chiq</string>
+    <string name="common_on">Yoqilgan</string>
+    <string name="common_not_medical">Orvell tibbiy qurilma emas va tashxis qo\'ymaydi.</string>
+    <string name="common_disclaimer">Orvell tibbiy qurilma emas. Ko\'rsatkichlar faqat ma\'lumot uchun; sog\'lig\'ingiz haqida shifokor bilan maslahatlashing.</string>
+
+    <!-- Format: sana, vaqt, birliklar -->
+    <string-array name="fmt_months">
+        <item>yanvar</item>
+        <item>fevral</item>
+        <item>mart</item>
+        <item>aprel</item>
+        <item>may</item>
+        <item>iyun</item>
+        <item>iyul</item>
+        <item>avgust</item>
+        <item>sentabr</item>
+        <item>oktabr</item>
+        <item>noyabr</item>
+        <item>dekabr</item>
+    </string-array>
+    <string-array name="fmt_months_short">
+        <item>yan</item>
+        <item>fev</item>
+        <item>mar</item>
+        <item>apr</item>
+        <item>may</item>
+        <item>iyn</item>
+        <item>iyl</item>
+        <item>avg</item>
+        <item>sen</item>
+        <item>okt</item>
+        <item>noy</item>
+        <item>dek</item>
+    </string-array>
+    <string-array name="fmt_weekdays">
+        <item>Dushanba</item>
+        <item>Seshanba</item>
+        <item>Chorshanba</item>
+        <item>Payshanba</item>
+        <item>Juma</item>
+        <item>Shanba</item>
+        <item>Yakshanba</item>
+    </string-array>
+    <string-array name="fmt_weekdays_short">
+        <item>Du</item>
+        <item>Se</item>
+        <item>Ch</item>
+        <item>Pa</item>
+        <item>Ju</item>
+        <item>Sh</item>
+        <item>Ya</item>
+    </string-array>
+    <string name="fmt_date">%1$d-%2$s</string>
+    <string name="fmt_date_year">%1$d-%2$s %3$d</string>
+    <string name="fmt_date_short">%1$d %2$s</string>
+    <string name="fmt_weekday_date">%1$s, %2$s</string>
+    <string name="fmt_decimal_sep">,</string>
+    <string name="fmt_group_sep">\u00A0</string>
+    <string name="fmt_today">Bugun</string>
+    <string name="fmt_yesterday">Kecha</string>
+    <string name="fmt_unit_min">daq</string>
+    <string name="fmt_unit_hour">soat</string>
+    <string name="fmt_dur_min">%1$d daq</string>
+    <string name="fmt_dur_hours">%1$d soat</string>
+    <string name="fmt_dur_hm">%1$d s %2$d daq</string>
+    <string name="fmt_unit_m">m</string>
+    <string name="fmt_unit_km">km</string>
+    <string name="fmt_unit_mi">mi</string>
+    <string name="fmt_unit_cm">sm</string>
+    <string name="fmt_unit_kg">kg</string>
+    <string name="fmt_unit_lb">lb</string>
+    <string name="fmt_never">hech qachon</string>
+    <string name="fmt_just_now">hozirgina</string>
+    <plurals name="fmt_minutes_ago">
+        <item quantity="one">%1$d daqiqa oldin</item>
+        <item quantity="other">%1$d daqiqa oldin</item>
+    </plurals>
+    <plurals name="fmt_hours_ago">
+        <item quantity="one">%1$d soat oldin</item>
+        <item quantity="other">%1$d soat oldin</item>
+    </plurals>
+    <plurals name="fmt_days_ago">
+        <item quantity="one">%1$d kun oldin</item>
+        <item quantity="other">%1$d kun oldin</item>
+    </plurals>
+    <string name="fmt_greet_morning">Xayrli tong</string>
+    <string name="fmt_greet_day">Xayrli kun</string>
+    <string name="fmt_greet_evening">Xayrli kech</string>
+    <string name="fmt_greet_night">Xayrli tun</string>
+
+    <!-- Asosiy menyu -->
+    <string name="tab_today">Bugun</string>
+    <string name="tab_health">Salomatlik</string>
+    <string name="tab_device">Qurilma</string>
+    <string name="tab_profile">Profil</string>
+
+    <!-- Bildirishnomalar -->
+    <string name="notif_ch_service">Soat ulanishi</string>
+    <string name="notif_ch_service_desc">Soat bilan doimiy ulanish (o\'chirib bo\'lmaydi, ammo yashirish mumkin)</string>
+    <string name="notif_ch_alerts">Ogohlantirishlar</string>
+    <string name="notif_ch_alerts_desc">Soat uzildi</string>
+    <string name="notif_connecting">Ulanmoqda…</string>
+    <string name="notif_connected">Soat ulangan</string>
+    <string name="notif_connected_battery">Soat ulangan · batareya %1$d%%</string>
+    <string name="notif_state_connecting">Soatga ulanmoqda…</string>
+    <string name="notif_state_confirm">Soat ekranida bog\'lashni tasdiqlang</string>
+    <string name="notif_state_bt_off">Bluetooth o\'chiq</string>
+    <string name="notif_state_disconnected">Soat uzildi, qayta ulanmoqda</string>
+    <string name="notif_state_unpaired">Soat bog\'lanmagan</string>
+    <string name="notif_battery_title">Soat batareyasi kam</string>
+    <string name="notif_battery_text">Batareya %1$d%%. Quvvatlashni unutmang.</string>
+    <string name="notif_disconnect_title">Soat bilan aloqa yo\'q</string>
+    <string name="notif_disconnect_text">30 daqiqadan beri ulanmagan. Soat yaqinmi, Bluetooth yoqilganmi?</string>
+    <string name="notif_permission_title">Soat ulanmagan</string>
+    <string name="notif_permission_text">Orvell\'ga \"Yaqin atrofdagi qurilmalar\" ruxsatini qayta bering.</string>
+
+    <!-- Ochiq kod litsenziyalari -->
+    <string name="licenses_title">Ochiq kod litsenziyalari</string>
+    <string name="licenses_intro">Orvell quyidagi ochiq kodli kutubxonalar va shriftdan foydalanadi. Kutubxonalar Apache 2.0, Manrope shrifti esa SIL Open Font License 1.1 ostida tarqatiladi.</string>
+    <string name="licenses_group">Kutubxonalar</string>
+    <string name="licenses_footer">Bu kutubxonalar bilan birga keladigan AndroidX yordamchi modullari ham Apache 2.0 litsenziyasida.</string>
+    <string name="licenses_show_text">Apache 2.0 matnini ko\'rsatish</string>
+    <string name="licenses_hide_text">Matnni yashirish</string>
+
+    <!-- Taklif yuborish -->
+    <string name="feedback_title">Fikr-mulohaza</string>
+    <string name="feedback_subtitle">Xato, g\'oya yoki savol</string>
+    <string name="feedback_intro">Orvell\'ni yaxshilashga yordam bering: nima ishlamadi, nima yoqmadi yoki nima qo\'shilishini xohlaysiz? Xabar pochta ilovangiz orqali yuboriladi — Orvell o\'zi hech narsa yubormaydi.</string>
+    <string name="feedback_hint">Xabaringiz</string>
+    <string name="feedback_attached">Xabarga qo\'shiladi</string>
+    <string name="feedback_attached_note">Muammoni tushunish uchun. Pochta ilovasida o\'chirib tashlashingiz mumkin.</string>
+    <string name="feedback_app_version">Ilova versiyasi</string>
+    <string name="feedback_android_version">Android versiyasi</string>
+    <string name="feedback_phone_model">Telefon modeli</string>
+    <string name="feedback_send_email">Email orqali yuborish</string>
+    <string name="feedback_no_email_app">Pochta ilovasi topilmadi. Xabar nusxalandi.</string>
+    <string name="feedback_subject">Orvell taklif (%1$s)</string>
+
+    <!-- Sozlamalar -->
+    <string name="settings_title">Sozlamalar</string>
+    <string name="settings_storage">Saqlash usuli</string>
+    <string name="settings_storage_local_sub">Ma\'lumot faqat shu telefonda</string>
+    <string name="settings_storage_local">Telefonda</string>
+    <string name="settings_group_look">Ko\'rinish</string>
+    <string name="settings_theme">Mavzu</string>
+    <string name="settings_theme_system">Tizim</string>
+    <string name="settings_theme_system_long">Tizimga moslash</string>
+    <string name="settings_theme_dark">Qorong\'i</string>
+    <string name="settings_theme_light">Yorug\'</string>
+    <string name="settings_language">Til</string>
+    <string name="settings_units">O\'lchov birliklari</string>
+    <string name="settings_units_metric">Metrik (km, kg)</string>
+    <string name="settings_units_imperial">Imperial (mi, lb)</string>
+    <string name="settings_units_metric_long">Metrik (km, kg, sm)</string>
+    <string name="settings_units_imperial_long">Imperial (mil, funt, dyuym)</string>
+    <string name="settings_clock24">24 soatlik vaqt</string>
+    <string name="settings_group_notifications">Bildirishnomalar</string>
+    <string name="settings_alert_disconnect">Soat bilan aloqa uzildi</string>
+    <string name="settings_alert_disconnect_sub">30 daqiqadan uzoq ulanmasa</string>
+    <string name="settings_system_notifications">Tizim bildirishnoma sozlamalari</string>
+    <string name="settings_notifications_blocked">Bildirishnomalar o\'chirilgan — ogohlantirishlar ko\'rinmaydi</string>
+    <string name="settings_group_watch">Soat</string>
+    <string name="settings_background">Fonda ishlashga ruxsat</string>
+    <string name="settings_background_sub">Telefon Orvell\'ni uxlatib qo\'ymasligi uchun batareya cheklovidan chiqaring</string>
+    <string name="settings_group_integrations">Integratsiyalar</string>
+    <string name="settings_integrations_footer">Barchasi ixtiyoriy. Yoqmaguningizcha ma\'lumot hech qayerga yuborilmaydi.</string>
+    <string name="settings_own_server">O\'z serveringiz</string>
+    <string name="settings_own_server_sub">Ma\'lumotni o\'zingizning serveringizga yuborish</string>
+    <string name="settings_group_data">Ma\'lumot</string>
+    <string name="settings_export">Ma\'lumotni eksport qilish</string>
+    <string name="settings_export_sub">CSV fayl (Excel, Google Sheets)</string>
+    <string name="settings_export_raw">Xom soat tarixi (diagnostika)</string>
+    <string name="settings_export_raw_sub">Soatdan saqlangan yozuvlar, CSV (hex). Faqat tahlil uchun.</string>
+    <string name="settings_export_raw_chooser">Xom tarixni ulashish</string>
+    <string name="settings_export_chooser">Ma\'lumotni eksport qilish</string>
+    <string name="settings_export_failed">Eksport qilib bo\'lmadi</string>
+    <string name="settings_clear">Barcha o\'lchovlarni o\'chirish</string>
+    <string name="settings_clear_sub">Profil va sozlamalar qoladi</string>
+    <string name="settings_group_app">Ilova</string>
+    <string name="settings_privacy">Maxfiylik siyosati</string>
+    <string name="settings_about">Ilova haqida</string>
+    <string name="settings_developer">Dasturchi rejimi</string>
+    <string name="settings_developer_sub">Qo\'shimcha texnik ma\'lumot ko\'rsatiladi</string>
+    <string name="settings_reset">Ilovani tiklash</string>
+    <string name="settings_reset_sub">Soat uziladi, barcha ma\'lumot va sozlamalar o\'chadi</string>
+    <string name="settings_clear_title">O\'lchovlarni o\'chirasizmi?</string>
+    <string name="settings_clear_body">Telefondagi barcha qadam, yurak, uyqu va boshqa yozuvlar butunlay o\'chiriladi. Buni qaytarib bo\'lmaydi.</string>
+    <string name="settings_clear_confirm">O\'chirish</string>
+    <string name="settings_reset_title">Ilovani tiklaysizmi?</string>
+    <string name="settings_reset_body">Soat uziladi, barcha ma\'lumot va sozlamalar o\'chadi, ilova birinchi ochilgandagi holatga qaytadi.</string>
+    <string name="settings_reset_confirm">Tiklash</string>
+
+    <!-- Ilova haqida -->
+    <string name="about_version">Versiya %1$s</string>
+    <string name="about_tagline">Soatingiz. Ma\'lumotingiz. Qoidalaringiz.</string>
+    <string name="about_developer_on">Dasturchi rejimi yoqilgan</string>
+    <string name="about_license">Litsenziya</string>
+    <string name="about_license_sub">Yopiq kodli dastur. Barcha huquqlar himoyalangan.</string>
+    <string name="about_license_value">Yopiq</string>
+    <string name="about_thanks">Minnatdorchilik</string>
+    <string name="about_thanks_text">Eski versiyalar Gadgetbridge loyihasi (AGPL-3.0) asosida yozilgan. Hozirgi soat protokoli mustaqil ravishda, o\'z Bluetooth loglarimiz asosida qayta yozilgan. Orvell Gadgetbridge, FitCloudPro yoki TopStep bilan bog\'liq emas.</string>
+    <string name="about_author">Muallif</string>
+    <string name="about_author_name">Steadfast11</string>
+
+    <!-- Maxfiylik (ilova ichida; to'liq matn: docs/privacy/index.html) -->
+    <string name="privacy_short_t">Qisqacha</string>
+    <string name="privacy_short">Orvell sizning ma\'lumotingizni sotmaydi, reklama ko\'rsatmaydi va kuzatuvchi (analitika) kutubxonalari ishlatmaydi. Sukut bo\'yicha barcha ma\'lumot faqat sizning telefoningizda saqlanadi.</string>
+    <string name="privacy_collect_t">Qanday ma\'lumot ishlatiladi</string>
+    <string name="privacy_collect">Soatdan: tarix yozuvlari (telefonda saqlanadi), soatning Bluetooth manzili va nomi. Tarix yozuvlaridan qadam, masofa, kaloriya va yurak urishi talqin qilinadi; uyqu, kislorod (SpO₂) va batareya yozuvlari hali talqin qilinmagan, xom holda saqlanadi. Eski versiyadan qolgan qadam, yurak urishi, kislorod, uyqu va batareya qiymatlari telefonda turadi, ammo yangilanmaydi. Siz kiritgan: ism, jins, tug\'ilgan sana, bo\'y, vazn va maqsadlar.</string>
+    <string name="privacy_store_t">Qayerda saqlanadi</string>
+    <string name="privacy_store">Telefoningizdagi ilova xotirasida. Ilova zaxira nusxalarga (Google Backup) qo\'shilmaydi. Orvell\'ning o\'z serveri yo\'q.</string>
+    <string name="privacy_share_t">Kimga yuboriladi</string>
+    <string name="privacy_share">Hech kimga — o\'zingiz yoqmaguningizcha. \"O\'z serveringiz\" yoqilsa, o\'lchovlar faqat siz ko\'rsatgan manzilga yuboriladi. Taklif yuborsangiz, xat pochta ilovangiz orqali ketadi.</string>
+    <string name="privacy_permissions_t">Ruxsatlar</string>
+    <string name="privacy_permissions">Yaqin atrofdagi qurilmalar (Bluetooth) — soatni topish va ulanish uchun; Android 11 va undan eskida bu uchun tizim joylashuv ruxsatini talab qiladi, lekin Orvell joylashuvingizni aniqlamaydi. Bildirishnomalar — soat ulanishi va ogohlantirishlar uchun. Telefon yonganda ishga tushish — soat bilan aloqani tiklash uchun. Internet — faqat o\'z serveringiz yoqilganda.</string>
+    <string name="privacy_control_t">Ma\'lumotni boshqarish</string>
+    <string name="privacy_control">Sozlamalar → Ma\'lumot bo\'limida hammasini CSV qilib eksport qilishingiz yoki butunlay o\'chirishingiz mumkin. Ilovani o\'chirsangiz, barcha ma\'lumot ham o\'chadi.</string>
+    <string name="privacy_medical_t">Tibbiy ogohlantirish</string>
+    <string name="privacy_medical">Orvell tibbiy qurilma emas. Ko\'rsatkichlar ma\'lumot uchun, tashxis yoki davolash uchun ishlatilmasligi kerak.</string>
+    <string name="privacy_children_t">Bolalar</string>
+    <string name="privacy_children">Ilova 13 yoshdan kichiklar uchun mo\'ljallanmagan.</string>
+    <string name="privacy_contact_t">Aloqa</string>
+    <string name="privacy_contact">Savollar bo\'yicha: Sozlamalar → Fikr-mulohaza.</string>
+    <string name="privacy_updated">Oxirgi yangilanish: 2026-yil oktabr</string>
+
+    <!-- O'z serveringiz -->
+    <string name="server_title">O\'z serveringiz</string>
+    <string name="server_intro_t">Ma\'lumotni o\'z serveringizga yuborish</string>
+    <string name="server_intro">Life-Tracker API bilan mos server (POST /ingest). Soat ma\'lumoti telefonda qoladi va nusxasi shu serverga ham yuboriladi — masalan, AI yordamchi o\'qishi uchun. Yoqmaguningizcha hech narsa yuborilmaydi.</string>
+    <string name="server_url_hint">Server manzili (https://…)</string>
+    <string name="server_url_hint_debug">Server manzili (https://… yoki http://100.x.x.x:8787)</string>
+    <string name="server_token">Token</string>
+    <string name="server_testing">Tekshirilmoqda…</string>
+    <string name="server_test">Tekshirish</string>
+    <string name="server_test_ok">Ulanish ishlayapti ✓</string>
+    <string name="server_save">Saqlash va yoqish</string>
+    <string name="server_status">Holat</string>
+    <string name="server_enabled">Yuborish yoqilgan</string>
+    <string name="server_last">Oxirgi yuborish</string>
+    <string name="server_last_none">hali yo\'q</string>
+    <string name="server_pending">Kutayotgan yozuvlar</string>
+    <string name="server_rejected">Server rad etgan yozuvlar</string>
+    <string name="server_last_error">Oxirgi xato</string>
+    <string name="server_sending">Yuborilmoqda…</string>
+    <string name="server_send_now">Hozir yuborish</string>
+    <string name="server_err_https">Chiqarilgan versiyada faqat https:// manzil ishlaydi</string>
+    <string name="server_err_token">Token noto\'g\'ri (server %1$d)</string>
+    <string name="server_err_http">Server javobi %1$d: %2$s</string>
+    <string name="server_err_network">Ulanib bo\'lmadi: %1$s</string>
+
+    <!-- Bugun ekrani -->
+    <string name="today_friend">do\'stim</string>
+    <string name="watch_chip_connected">Ulangan</string>
+    <string name="watch_chip_connecting">Ulanmoqda</string>
+    <string name="watch_chip_confirm">Soatda tasdiqlang</string>
+    <string name="watch_chip_bt_off">Bluetooth o\'chiq</string>
+    <string name="watch_chip_disconnected">Uzilgan</string>
+    <string name="watch_chip_unpaired">Soat yo\'q</string>
+    <string name="today_pair_title">Soatingizni ulang</string>
+    <string name="today_pair_body">Qadam, yurak, uyqu va boshqa ko\'rsatkichlar soatdan keladi</string>
+    <string name="today_empty_title">Hali ma\'lumot yo\'q</string>
+    <string name="today_empty_body">Qadam va yurak urishi qiymatlari hali tahlil qilinmoqda. Soat tarixi telefonga saqlanadi.</string>
+    <plurals name="unit_steps">
+        <item quantity="one">qadam</item>
+        <item quantity="other">qadam</item>
+    </plurals>
+    <string name="metric_steps">Qadam</string>
+    <string name="metric_distance">Masofa</string>
+    <string name="metric_calories">Kaloriya</string>
+    <string name="unit_kcal">kkal</string>
+    <string name="unit_bpm">bpm</string>
+    <string name="unit_per_min">/daq</string>
+    <string name="unit_mmhg">mmHg</string>
+    <string name="today_of_goal">/ %1$s</string>
+    <string name="today_by_hour">Soatlar bo\'yicha</string>
+    <string name="today_steps_phone">Qadam telefon sensoridan (soat emas), Orvell ochilgandan beri.</string>
+    <string name="today_heart_title">Yurak urishi</string>
+    <string name="today_heart_sleep">Uyqudagi</string>
+    <string name="today_min_value">min %1$s</string>
+    <string name="today_avg_value">o\'rtacha %1$s</string>
+    <string name="today_max_value">max %1$s</string>
+    <string name="today_heart_none">Bugun uchun yurak urishi ma\'lumoti hali yo\'q</string>
+    <string name="today_sleep_title">Uyqu</string>
+    <string name="today_sleep_none">Uyqu qiymatlari hali talqin qilinmagan</string>
+    <string name="today_sleep_none_hint">Soat tarixi telefonda saqlanadi, ammo uyqu hali ko\'rsatilmaydi</string>
+    <string name="today_sleep_goal">maqsad %1$s</string>
+    <string name="stage_deep">Chuqur</string>
+    <string name="stage_light">Yengil</string>
+    <string name="stage_rem">REM</string>
+    <string name="stage_awake">Uyg\'oq</string>
+    <string name="today_stage_value">%1$s %2$s</string>
+    <string name="metric_oxygen_short">Kislorod</string>
+    <string name="metric_pressure_short">Qon bosimi</string>
+    <string name="metric_breath_short">Nafas</string>
+    <plurals name="today_spo2_avg">
+        <item quantity="one">o\'rtacha %1$d%% · %2$d ta</item>
+        <item quantity="other">o\'rtacha %1$d%% · %2$d ta</item>
+    </plurals>
+    <string name="today_no_reading">o\'lchov yo\'q</string>
+    <string name="today_at_time">%1$s da</string>
+    <string name="today_week_avg">Haftalik o\'rtacha</string>
+    <plurals name="today_days_at_goal">
+        <item quantity="one">%1$d kun maqsadda</item>
+        <item quantity="other">%1$d kun maqsadda</item>
+    </plurals>
+    <string name="today_this_week">Shu hafta</string>
+
+    <!-- Ko'rsatkichlar va batafsil ekran -->
+    <string name="kind_activity">Faollik</string>
+    <string name="kind_heart">Yurak urishi</string>
+    <string name="kind_sleep">Uyqu</string>
+    <string name="kind_oxygen">Qondagi kislorod</string>
+    <string name="kind_pressure">Qon bosimi</string>
+    <string name="kind_breath">Nafas</string>
+    <string name="about_activity">Qadamlar soatning harakat sensoridan hisoblanadi. Masofa va kaloriya qadam, bo\'y va vazn asosida taxminiy chiqariladi.</string>
+    <string name="about_heart">Yurak urishi soat tarixidan olinadi: har 5 daqiqaga bitta qiymat, telefonda saqlanadi.</string>
+    <string name="about_sleep">Soat tunda harakat va yurak urishiga qarab uyqu bosqichlarini aniqlaydi. Soat tunni bir necha bo\'lakda yozishi mumkin — Orvell 2 soatgacha bo\'shliqli bo\'laklarni bitta tunga birlashtiradi.</string>
+    <string name="about_oxygen">SpO₂ — qondagi kislorod to\'yinganligi. Bilak soatlarining o\'lchovi tibbiy pulsoksimetrdek aniq emas.</string>
+    <string name="about_pressure">Bilak soatlari qon bosimini optik sensor asosida TAXMIN qiladi. Bu manjetli tonometr o\'rnini bosmaydi.</string>
+    <string name="about_breath">Daqiqasiga nafas soni — jonli o\'lchash vaqtida soat taxmin qiladi.</string>
+    <string name="health_title">Salomatlik</string>
+    <string name="health_subtitle">Oxirgi 7 kun</string>
+    <plurals name="unit_steps_per_day">
+        <item quantity="one">qadam/kun</item>
+        <item quantity="other">qadam/kun</item>
+    </plurals>
+    <string name="health_list">o\'lchovlar ro\'yxati</string>
+    <string name="health_avg7">7 kunlik o\'rtacha</string>
+    <plurals name="health_records">
+        <item quantity="one">Telefonda %1$s ta yozuv</item>
+        <item quantity="other">Telefonda %1$s ta yozuv</item>
+    </plurals>
+    <string name="health_since">" · %1$s dan beri"</string>
+    <string name="health_local_only">" · faqat shu telefonda saqlanadi"</string>
+    <string name="health_no_data">Bu ko\'rsatkich bo\'yicha hali qiymat yo\'q: soat tarixi saqlanmoqda, qiymatlar hali tahlil qilinmagan.</string>
+    <string name="detail_day">Kun</string>
+    <string name="detail_week">Hafta</string>
+    <string name="detail_month">Oy</string>
+    <string name="detail_about">Bu ko\'rsatkich haqida</string>
+    <string name="detail_goal_line">Maqsad %1$s · %2$s</string>
+    <string name="detail_active_hours">Faol soatlar</string>
+    <string name="detail_avg">O\'rtacha</string>
+    <string name="detail_min">Min</string>
+    <string name="detail_max">Max</string>
+    <string name="detail_readings">O\'lchov</string>
+    <string name="detail_sleep_none">Bu kun uchun uyqu yozilmagan</string>
+    <string name="detail_in_bed">To\'shakda</string>
+    <string name="detail_bed">Yotdi</string>
+    <string name="detail_wake">Turdi</string>
+    <string name="detail_asleep">Uxladi</string>
+    <string name="stage_deep_long">Chuqur uyqu</string>
+    <string name="stage_light_long">Yengil uyqu</string>
+    <string name="detail_stage_value">%1$s · %2$d%%</string>
+    <string name="detail_sleep_gap">Bo\'laklar orasidagi %1$s ni soat bosqich sifatida yozmagan.</string>
+    <string name="detail_last">Oxirgi</string>
+    <string name="detail_pressure_day_only">Qon bosimi kunlik ko\'rinishda — Kun bo\'limiga o\'ting.</string>
+    <string name="detail_highest">Eng yuqori</string>
+    <string name="detail_lowest">Eng past</string>
+    <string name="detail_at_goal">Maqsadda</string>
+    <string name="detail_days">Kunlar</string>
+    <plurals name="detail_n_days">
+        <item quantity="one">%1$d kun</item>
+        <item quantity="other">%1$d kun</item>
+    </plurals>
+    <string name="detail_total">Jami</string>
+    <string name="detail_no_period_data">Bu davrda ma\'lumot yo\'q</string>
+
+    <!-- Qurilma va soat ulash -->
+    <string name="device_title">Qurilma</string>
+    <string name="device_your_watch">Soatingiz</string>
+    <string name="device_watch_default">Soat</string>
+    <string name="device_not_paired">Soat ulanmagan</string>
+    <string name="device_not_paired_body">FitCloudPro ilovasi bilan ishlaydigan (FitCloud / TopStep) soatlar qo\'llab-quvvatlanadi.</string>
+    <string name="device_pair">Soat ulash</string>
+    <string name="device_error_title">Ulanishda xato</string>
+    <string name="device_error_hint">Soat boshqa ilovaga (masalan FitCloudPro) bog\'langan bo\'lsa, avval o\'sha ilovada uzing.</string>
+    <string name="device_time">Vaqt va sana</string>
+    <string name="device_time_sub">Har ulanishda telefondan avtomatik olinadi</string>
+    <string name="device_bt_address">Bluetooth manzili</string>
+    <string name="device_bind_id">Bog\'lash ID</string>
+    <string name="device_app_settings">Ilova sozlamalari</string>
+    <string name="device_unpair">Soatni uzish</string>
+    <string name="device_unpair_sub">Soat ilovadan ajratiladi, ma\'lumot telefonda qoladi</string>
+    <string name="device_unpair_title">Soatni uzasizmi?</string>
+    <string name="device_unpair_body">Soat bilan aloqa to\'xtaydi. Yig\'ilgan ma\'lumot telefonda saqlanib qoladi. Qayta ulash uchun soatda yana tasdiqlash kerak bo\'ladi.</string>
+    <string name="device_unpair_confirm">Uzish</string>
+    <string name="device_state_connected">Ulangan</string>
+    <string name="device_state_connecting">Ulanmoqda…</string>
+    <string name="device_state_confirm">Soatda tasdiqlang</string>
+    <string name="device_state_bt_off">Bluetooth o\'chiq</string>
+    <string name="device_state_disconnected">Uzilgan</string>
+    <string name="device_battery">Batareya %1$d%%</string>
+    <string name="device_synced_new">Sinxronlandi: %1$s · yangi yozuv: %2$d</string>
+    <string name="device_not_synced">Hali sinxron qilinmagan</string>
+    <string name="device_history_total">Saqlangan tarix yozuvlari: %1$d</string>
+    <string name="device_sync">Sinxron qilish</string>
+    <string name="device_syncing">Sinxron qilinmoqda…</string>
+    <string name="device_sync_need_connection">Sinxron qilish uchun soat ulangan bo\'lishi kerak</string>
+    <string name="device_reconnect">Qayta ulash</string>
+    <string name="device_bt_off_banner">Bluetooth o\'chiq — soat ulanmaydi</string>
+    <string name="device_bt_turn_on">Yoqish</string>
+    <string name="device_perm_banner">\"Yaqin atrofdagi qurilmalar\" ruxsati yo\'q — soat ulanmaydi</string>
+    <string name="device_open_app_settings">Ilova sozlamalarini ochish</string>
+    <string name="pair_title">Soat ulash</string>
+    <string name="pair_perm_title">Bluetooth ruxsati</string>
+    <string name="pair_perm_body">Orvell soatni topishi va unga ulanishi uchun \"Yaqin atrofdagi qurilmalar\" ruxsati kerak. Joylashuvingiz olinmaydi.</string>
+    <string name="pair_perm_body_location">Android 11 va undan eskida Bluetooth qidiruvi uchun tizim joylashuv ruxsatini talab qiladi. Orvell joylashuvingizni aniqlamaydi va saqlamaydi.</string>
+    <string name="pair_perm_denied">Ruxsat berilmadi. Uni ilova sozlamalarida yoqishingiz mumkin.</string>
+    <string name="pair_bt_title">Bluetooth o\'chiq</string>
+    <string name="pair_bt_body">Soat bilan aloqa uchun Bluetooth\'ni yoqing.</string>
+    <string name="pair_bt_button">Bluetooth\'ni yoqish</string>
+    <string name="pair_location_title">Joylashuv xizmati o\'chiq</string>
+    <string name="pair_location_body">Android 11 va undan eskida Bluetooth qurilmalarini topish uchun telefonning joylashuv xizmati yoqilgan bo\'lishi kerak. Orvell joylashuvingizni olmaydi.</string>
+    <string name="pair_location_button">Joylashuvni yoqish</string>
+    <string name="pair_confirm_title">Soat ekranida tasdiqlang</string>
+    <string name="pair_connecting_title">Ulanmoqda: %1$s…</string>
+    <string name="pair_confirm_body">Soatingizda bog\'lash so\'rovi chiqdi — ✓ belgisini bosing.</string>
+    <string name="pair_connecting_body">Soatni telefonga yaqin tuting. Bu 10–30 soniya olishi mumkin.</string>
+    <string name="pair_other_app_hint">Soat boshqa ilovaga bog\'langan bo\'lsa (masalan FitCloudPro), avval o\'sha ilovada soatni uzing yoki ilovani o\'chiring.</string>
+    <string name="pair_choose_other">Boshqa soat tanlash</string>
+    <string name="pair_done_title">Soat ulandi</string>
+    <string name="pair_done_body">Soat ulandi. Tarixni olish uchun «Sinxron qilish» tugmasini bosing.</string>
+    <string name="pair_later">Keyinroq ulayman</string>
+    <string name="scan_searching">Soat qidirilmoqda…</string>
+    <string name="scan_done">Qidiruv tugadi</string>
+    <string name="scan_hint">Soat yoqilgan va telefonga yaqin bo\'lsin. Ro\'yxatdan soatingiz nomini tanlang.</string>
+    <string name="scan_found">Topilgan qurilmalar</string>
+    <string name="scan_compatible">"Mos keladi · "</string>
+    <string name="scan_signal">signal %1$s</string>
+    <string name="scan_none">Hech narsa topilmadi. Soat ekranini yoqing va qayta urining.</string>
+    <string name="scan_again">Qayta qidirish</string>
+    <string name="signal_excellent">a\'lo</string>
+    <string name="signal_good">yaxshi</string>
+    <string name="signal_fair">o\'rtacha</string>
+    <string name="signal_weak">kuchsiz</string>
+
+    <!-- Onboarding -->
+    <string name="onb_about_title">Siz haqingizda</string>
+    <string name="onb_about_body">Masofa va kaloriyani to\'g\'ri hisoblash uchun. Bu ma\'lumot telefoningizdan chiqmaydi.</string>
+    <string name="onb_pair_title">Soatni ulang</string>
+    <string name="onb_pair_body">FitCloudPro bilan ishlaydigan soatlar (FitCloud / TopStep) qo\'llab-quvvatlanadi.</string>
+    <string name="onb_feature1_t">Barcha ko\'rsatkichlar bir joyda</string>
+    <string name="onb_feature1">Soatni ulash, vaqtni sinxronlash va tarixni telefonda saqlash</string>
+    <string name="onb_feature2_t">Ma\'lumot sizniki</string>
+    <string name="onb_feature2">Akkaunt shart emas. Hech narsa ruxsatingizsiz chiqmaydi</string>
+    <string name="onb_feature3_t">Reklamasiz, kuzatuvchilarsiz</string>
+    <string name="onb_feature3">Analitika va reklama kutubxonalari ishlatilmaydi</string>
+    <string name="onb_start">Boshlash</string>
+    <string name="onb_storage_title">Ma\'lumot qayerda saqlanadi?</string>
+    <string name="onb_storage_body">Uni istalgan payt Sozlamalar → Ma\'lumot bo\'limida eksport qilish yoki o\'chirish mumkin.</string>
+    <string name="onb_local_title">Faqat shu telefonda</string>
+    <string name="onb_local_1">Akkaunt va internet shart emas</string>
+    <string name="onb_local_2">Ma\'lumot hech qayerga yuborilmaydi</string>
+    <string name="onb_local_3">Telefon almashsa, eksport orqali ko\'chiriladi</string>
+    <string name="onb_goals_title">Kunlik maqsadlar</string>
+    <string name="onb_goals_body">Orbitalar shu maqsadga qarab to\'ladi. Keyin Profil bo\'limida o\'zgartirasiz.</string>
+    <string name="onb_goal_steps">Qadam</string>
+    <string name="onb_goal_sleep">Uyqu</string>
+    <string name="onb_notif_title">Bildirishnomalar</string>
+    <string name="onb_notif_body">Soat bilan aloqa uzilsa xabar beramiz. Reklama yubormaymiz.</string>
+    <string name="onb_notif_granted">Ruxsat berilgan</string>
+    <string name="onb_notif_requested">Ruxsat so\'raladi</string>
+    <string name="onb_notif_denied">Ruxsat berilmagan — ogohlantirishlar ko\'rinmaydi. Keyin tizim sozlamalarida yoqish mumkin.</string>
+    <string name="onb_notif_bt_later">Bluetooth ruxsati keyingi qadamda, soat qidirilganda so\'raladi.</string>
+    <string name="onb_skip">O\'tkazib yuborish</string>
+    <string name="onb_done_title">Hammasi tayyor!</string>
+    <string name="onb_done_title_name">Hammasi tayyor, %1$s!</string>
+    <string name="onb_done_body">Soat ulandi. Tarixni olish uchun «Sinxron qilish» tugmasini bosing.</string>
+    <string name="onb_open">Orvell\'ni ochish</string>
+
+    <!-- Profil -->
+    <string name="profile_title">Profil</string>
+    <string name="profile_name_placeholder">Ismingiz</string>
+    <plurals name="profile_age">
+        <item quantity="one">%1$d yosh</item>
+        <item quantity="other">%1$d yosh</item>
+    </plurals>
+    <string name="profile_storage_local">Faqat shu telefonda</string>
+    <string name="profile_with_orvell">Orvell bilan</string>
+    <plurals name="unit_days">
+        <item quantity="one">kun</item>
+        <item quantity="other">kun</item>
+    </plurals>
+    <string name="profile_30_days">30 kunda</string>
+    <string name="profile_record">Rekord</string>
+    <string name="profile_goals">Kunlik maqsadlar</string>
+    <string name="profile_goal_steps">Qadam</string>
+    <string name="profile_goal_sleep">Uyqu</string>
+    <string name="profile_goal_kcal">Faol kaloriya</string>
+    <string name="profile_goal_distance">Masofa</string>
+    <string name="profile_body">Tana</string>
+    <string name="profile_body_footer">Bo\'y, vazn, yosh va jins masofa va kaloriya hisobi uchun ishlatiladi. Bu ma\'lumot telefoningizdan chiqmaydi.</string>
+    <string name="profile_height">Bo\'y</string>
+    <string name="profile_weight">Vazn</string>
+    <string name="profile_bmi">Tana massasi indeksi</string>
+    <string name="profile_bmi_sub">Ma\'lumot uchun, tashxis emas</string>
+    <string name="profile_birth">Tug\'ilgan sana</string>
+    <string name="profile_not_set">Kiritilmagan</string>
+    <string name="profile_choose">Tanlang</string>
+    <string name="profile_sex">Jins</string>
+    <string name="profile_male">Erkak</string>
+    <string name="profile_female">Ayol</string>
+    <string name="profile_sex_unset">Ko\'rsatilmagan</string>
+    <string name="profile_sex_hide">Ko\'rsatmaslik</string>
+    <string name="profile_privacy">Maxfiylik</string>
+    <string name="profile_goal_steps_dialog">Kunlik qadam maqsadi</string>
+    <string name="profile_goal_sleep_dialog">Uyqu maqsadi</string>
+    <string name="profile_goal_kcal_dialog">Faol kaloriya maqsadi</string>
+    <string name="profile_goal_distance_dialog">Masofa maqsadi</string>
+    <string name="profile_edit_title">Profilni tahrirlash</string>
+    <string name="profile_name">Ism</string>
+
+    <!-- Bo'sh holatlar -->
+    <string name="detail_no_data_day">Bu kun o\'lchov yo\'q</string>
+
+    <!-- Redizayn: umumiy (tugmalar tavsifi, grafiklar) -->
+    <string name="cd_back">Orqaga</string>
+    <string name="cd_close">Yopish</string>
+    <string name="cd_previous">Oldingi davr</string>
+    <string name="cd_next">Keyingi davr</string>
+    <string name="cd_settings">Sozlamalar</string>
+    <string name="cd_edit_profile">Profilni tahrirlash</string>
+    <string name="cd_avatar_color">Avatar rangi %1$d</string>
+    <string name="chart_goal">maqsad</string>
+    <string name="hypno_inspect">%1$s · %2$s–%3$s · %4$s</string>
+    <string name="hr_zones_title">Yurak urishi zonalari</string>
+    <string name="hr_zones_note">Taxminiy: maksimal puls = 220 − yosh. Ma\'lumot uchun.</string>
+    <string name="hr_zones_need_age">Zonalarni ko\'rish uchun profilda tug\'ilgan sanani kiriting.</string>
+    <string name="hr_zone_0">Dam</string>
+    <string name="hr_zone_1">Juda yengil</string>
+    <string name="hr_zone_2">Yengil</string>
+    <string name="hr_zone_3">O\'rtacha</string>
+    <string name="hr_zone_4">Yuqori</string>
+    <string name="hr_zone_5">Maksimal</string>
+    <string name="rings_cd">Qadam %1$s / %2$s, masofa %3$s, kaloriya %4$s</string>
+    <string name="undo">Qaytarish</string>
+
+    <!-- Redizayn: Bugun -->
+    <string name="insight_sleep_more">Kecha haftalik o\'rtachadan %1$s ko\'proq uxladingiz</string>
+    <string name="insight_sleep_less">Kecha haftalik o\'rtachadan %1$s kamroq uxladingiz</string>
+    <plurals name="insight_goal">
+        <item quantity="one">Kunlik maqsad bajarildi — %1$s qadam</item>
+        <item quantity="other">Kunlik maqsad bajarildi — %1$s qadam</item>
+    </plurals>
+    <plurals name="insight_streak">
+        <item quantity="one">%1$d kun ketma-ket maqsad bajarilmoqda</item>
+        <item quantity="other">%1$d kun ketma-ket maqsad bajarilmoqda</item>
+    </plurals>
+    <plurals name="insight_steps_more">
+        <item quantity="one">Bugun odatdagidan %1$s qadam ko\'p yurdingiz</item>
+        <item quantity="other">Bugun odatdagidan %1$s qadam ko\'p yurdingiz</item>
+    </plurals>
+    <plurals name="insight_steps_less">
+        <item quantity="one">Bugun odatdagidan %1$s qadam kam yurdingiz</item>
+        <item quantity="other">Bugun odatdagidan %1$s qadam kam yurdingiz</item>
+    </plurals>
+    <string name="insight_hr_higher">Uyqudagi puls odatdagidan %1$d bpm yuqori</string>
+    <string name="insight_hr_lower">Uyqudagi puls odatdagidan %1$d bpm past</string>
+    <plurals name="insight_to_goal">
+        <item quantity="one">Maqsadgacha %1$s qadam qoldi</item>
+        <item quantity="other">Maqsadgacha %1$s qadam qoldi</item>
+    </plurals>
+    <string name="hint_tap_card">Batafsil ko\'rish uchun istalgan kartochkani bosing</string>
+    <string name="today_open_details">Batafsil</string>
+
+    <!-- Redizayn: Salomatlik va batafsil -->
+    <string name="trend_up">↑ %1$d%%</string>
+    <string name="trend_down">↓ %1$d%%</string>
+    <string name="trend_up_cd">Oldingi 7 kunga nisbatan %1$d%% ko\'proq</string>
+    <string name="trend_down_cd">Oldingi 7 kunga nisbatan %1$d%% kamroq</string>
+    <string name="detail_tooltip_hr">%1$s · %2$d bpm</string>
+    <string name="detail_tooltip_spo2">%1$s · %2$d%%</string>
+    <string name="detail_interact_hint">Grafikni bosing yoki barmoq bilan suring</string>
+
+    <!-- Redizayn: Qurilma -->
+    <string name="device_unpair_pending">Soat uzilmoqda…</string>
+    <string name="device_watch_cd">Soat: %1$s, batareya %2$s</string>
+    <string name="device_charging">Quvvatlanmoqda</string>
+
+    <!-- Onboarding v2 -->
+    <string name="onb_step_cd">%1$d-qadam, jami %2$d</string>
+    <string name="onb_step_count">%1$d/%2$d</string>
+
+    <!-- Profil v2: seriya va yutuqlar -->
+    <string name="profile_streak_title">Seriya</string>
+    <string name="profile_streak_best">Eng uzun</string>
+    <string name="profile_streak_hint">Qadam maqsadi bajarilgan ketma-ket kunlar. Bugun hali bajarilmagan bo\'lsa, seriya uzilmaydi.</string>
+    <string name="profile_streak_cd">So\'nggi %2$d kunning %1$d tasida qadam maqsadi bajarilgan</string>
+    <string name="profile_achievements">Yutuqlar</string>
+    <string name="profile_achievements_footer">So\'nggi 90 kunlik ma\'lumotdan hisoblanadi.</string>
+    <string name="profile_achievements_count">%1$d/%2$d</string>
+    <string name="ach_earned">Erishildi</string>
+    <string name="ach_progress">%1$s / %2$s</string>
+    <string name="ach_first_day">Birinchi kun</string>
+    <string name="ach_first_day_d">Soatdan birinchi ma\'lumot keldi</string>
+    <string name="ach_streak_3">3 kun ketma-ket</string>
+    <string name="ach_streak_3_d">Qadam maqsadi 3 kun ketma-ket</string>
+    <string name="ach_streak_7">Bir hafta</string>
+    <string name="ach_streak_7_d">Qadam maqsadi 7 kun ketma-ket</string>
+    <string name="ach_streak_30">Bir oy</string>
+    <string name="ach_streak_30_d">Qadam maqsadi 30 kun ketma-ket</string>
+    <string name="ach_steps_10k">10 000 qadam</string>
+    <string name="ach_steps_10k_d">Bir kunda 10 000 qadam</string>
+    <string name="ach_steps_20k">20 000 qadam</string>
+    <string name="ach_steps_20k_d">Bir kunda 20 000 qadam</string>
+    <string name="ach_sleep_5">Yaxshi uyqu</string>
+    <string name="ach_sleep_5_d">5 kecha uyqu maqsadiga yetildi</string>
+    <string name="ach_total_100k">100 000 qadam</string>
+    <string name="ach_total_100k_d">90 kun ichida jami</string>
+
+    <!-- Sozlamalar v2: qidiruv, qaytarish; litsenziyalar: shrift -->
+    <string name="settings_search">Sozlamalardan qidirish</string>
+    <string name="settings_search_empty_t">Hech narsa topilmadi</string>
+    <string name="settings_search_empty">“%1$s” bo\'yicha sozlama yo\'q. Boshqa so\'z bilan urinib ko\'ring.</string>
+    <string name="cd_clear_search">Qidiruvni tozalash</string>
+    <string name="settings_clear_pending">O\'lchovlar o\'chiriladi</string>
+    <string name="licenses_fonts">Shriftlar</string>
+    <string name="licenses_font_sub">Interfeys shrifti</string>
+    <string name="licenses_show_ofl">OFL 1.1 matnini ko\'rsatish</string>
+
+    <string name="legacy_notice">Quyidagi qiymatlar oldingi versiyada saqlangan. Ularning talqini tasdiqlanmagan va yangilanmaydi.</string>
+    <string name="err_account">Hisob satri noto\'g\'ri (faqat ASCII, 32 bayt gacha)</string>
+    <string name="err_no_bluetooth">Bluetooth mavjud emas</string>
+    <string name="err_connect_failed">Ulanish boshlanmadi</string>
+    <string name="err_discover">Xizmatlarni qidirib bo\'lmadi</string>
+    <string name="err_services_status">Xizmatlar topilmadi (kod %1$d)</string>
+    <string name="err_service_missing">Soat xizmati topilmadi</string>
+    <string name="err_channels_missing">Soat kanallari topilmadi</string>
+    <string name="err_notify_status">Bildirishnoma yozilmadi (kod %1$d)</string>
+    <string name="err_descriptor_missing">Bildirishnoma deskriptori topilmadi</string>
+    <string name="err_notify_write">Bildirishnoma yozilmadi</string>
+    <string name="err_write_mtu">Yozish rad etildi (MTU=%1$d)</string>
+    <string name="err_write_mtu_bind">Yuborib bo\'lmadi (MTU=%1$d)</string>
+    <string name="err_bind_rejected">Bog\'lash rad etildi (javob kodi 0x%1$02X)</string>
+    <string name="err_write">Yozish rad etildi</string>
+    <string name="err_unbind_nores">Soat ajratish javobini bermadi</string>
+    <string name="err_unbind_rejected">Soat ajratishni rad etdi (javob kodi 0x%1$02X)</string>
+    <string name="err_hist_pending">Tarix: kutilayotgan hajm noto\'g\'ri</string>
+    <string name="err_hist_length">Tarix: yozuv hajmi kutilmagan</string>
+    <string name="err_hist_second">Tarix: hisoblagichda kutilmagan ikkinchi yozuv</string>
+    <string name="err_hist_size">Tarix yozuvi hajmi mos emas</string>
+    <string name="err_hist_store">Tarix yozuvi saqlanmadi</string>
+    <string name="err_hist_timeout">Soat tarix javobini bermadi</string>
+    <string name="err_hist_mismatch">Tarix: yozuv hajmi ikki marta har xil keldi</string>
+    <string name="err_face_rejected">Soat siferblatni qabul qilmadi</string>
+    <string name="err_face_disconnected">Siferblat yuborilayotganda aloqa uzildi</string>
+</resources>

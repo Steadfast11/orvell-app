@@ -1,0 +1,24 @@
+# Gradle / Android Studio
+.gradle/
+.kotlin/
+build/
+**/build/
+local.properties
+.idea/
+*.iml
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Chiqarilgan fayllar va imzo kalitlari (hech qachon repoga tushmasin)
+*.apk
+*.aab
+*.keystore
+*.jks
+keystore.properties
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/

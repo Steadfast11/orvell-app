@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Orvell belgisi v2 ("Orbit Glass"): ikki shisha halqa (faollik va uyqu), qiya orbita va sayyora.
+     Hammasi 66 dp xavfsiz doira ichida (adaptiv belgi niqoblari kesmaydi). Splash ham shu belgini ishlatadi. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- trek (chuqurcha) -->
+    <path android:pathData="M32.00,54.00 a22,22 0 1,0 44.00,0 a22,22 0 1,0 -44.00,0" android:strokeWidth="6" android:strokeColor="#FFFFFF" android:strokeAlpha="0.08" android:fillColor="#00000000" />
+    <path android:pathData="M41.00,54.00 a13,13 0 1,0 26.00,0 a13,13 0 1,0 -26.00,0" android:strokeWidth="6" android:strokeColor="#FFFFFF" android:strokeAlpha="0.08" android:fillColor="#00000000" />
+
+    <!-- qiya orbita -->
+    <group android:pivotX="54" android:pivotY="54" android:rotation="-28">
+        <path android:pathData="M23,54 a31,11.5 0 1,0 62,0 a31,11.5 0 1,0 -62,0" android:strokeWidth="1.6" android:strokeAlpha="0.45" android:strokeColor="#45E3F2" android:fillColor="#00000000" />
+    </group>
+
+    <!-- tashqi halqa: faollik (yashil → feruza) -->
+    <path android:pathData="M54.00,32.00 A22,22 0 1,1 33.33,46.48" android:strokeWidth="6" android:strokeLineCap="round" android:fillColor="#00000000">
+        <aapt:attr name="android:strokeColor">
+            <gradient android:type="linear" android:startX="32" android:startY="32" android:endX="76" android:endY="76" android:startColor="#C8F56A" android:endColor="#45E3F2" />
+        </aapt:attr>
+    </path>
+
+    <!-- ichki halqa: uyqu (binafsha → ko'k) -->
+    <path android:pathData="M54.00,41.00 A13,13 0 1,1 47.50,65.26" android:strokeWidth="6" android:strokeLineCap="round" android:fillColor="#00000000">
+        <aapt:attr name="android:strokeColor">
+            <gradient android:type="linear" android:startX="41" android:startY="41" android:endX="67" android:endY="67" android:startColor="#9B8CFF" android:endColor="#4F8CFF" />
+        </aapt:attr>
+    </path>
+
+    <!-- markaz va orbitadagi sayyora (yorug' nuqta bilan) -->
+    <path android:pathData="M51.40,54.00 a2.6,2.6 0 1,0 5.20,0 a2.6,2.6 0 1,0 -5.20,0" android:fillColor="#FFFFFF" android:fillAlpha="0.9" />
+    <path android:pathData="M71.59,36.40 a4.2,4.2 0 1,0 8.40,0 a4.2,4.2 0 1,0 -8.40,0" android:fillColor="#C8F56A" />
+    <path android:pathData="M73.29,35.50 a1.6,1.6 0 1,0 3.20,0 a1.6,1.6 0 1,0 -3.20,0" android:fillColor="#FFFFFF" />
+</vector>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Orvell</string>
+    <!-- Til nomlari doim o'z tilida (endonim), mahsulot nomi tarjima qilinmaydi -->
+    <string name="lang_uz" translatable="false">O\'zbekcha</string>
+    <string name="lang_en" translatable="false">English</string>
+    <string name="lang_ru" translatable="false">Русский</string>
+
+    <color name="orvell_bg">#06070B</color>
+    <color name="orvell_icon_bg">#0B0E16</color>
+
+    <!-- Splash: qorong'i fon + orbita belgisi, keyin Compose mavzusiga o'tadi -->
+    <style name="Theme.Orvell.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/orvell_bg</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
+        <item name="postSplashScreenTheme">@style/Theme.Orvell</item>
+    </style>
+
+    <style name="Theme.Orvell" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/orvell_bg</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+</resources>

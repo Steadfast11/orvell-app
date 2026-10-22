@@ -1,0 +1,6 @@
+# GitHub Pages (docs/): only the privacy page is meant to be served.
+exclude:
+  - DESIGN-BRIEF.md
+  - UI-REDESIGN.md
+  - clean-room/
+  - README.md

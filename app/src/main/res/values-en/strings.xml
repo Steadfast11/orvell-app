@@ -1,0 +1,656 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Umumiy -->
+    <string name="common_continue">Continue</string>
+    <string name="common_cancel">Cancel</string>
+    <string name="common_save">Save</string>
+    <string name="common_select">Select</string>
+    <string name="common_grant">Allow</string>
+    <string name="common_off">Off</string>
+    <string name="common_on">On</string>
+    <string name="common_not_medical">Orvell is not a medical device and does not diagnose.</string>
+    <string name="common_disclaimer">Orvell is not a medical device. Readings are for information only; talk to a doctor about your health.</string>
+
+    <!-- Format: sana, vaqt, birliklar -->
+    <string-array name="fmt_months">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+    <string-array name="fmt_months_short">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Mar</item>
+        <item>Apr</item>
+        <item>May</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Aug</item>
+        <item>Sep</item>
+        <item>Oct</item>
+        <item>Nov</item>
+        <item>Dec</item>
+    </string-array>
+    <string-array name="fmt_weekdays">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+    <string-array name="fmt_weekdays_short">
+        <item>Mo</item>
+        <item>Tu</item>
+        <item>We</item>
+        <item>Th</item>
+        <item>Fr</item>
+        <item>Sa</item>
+        <item>Su</item>
+    </string-array>
+    <string name="fmt_date">%2$s %1$d</string>
+    <string name="fmt_date_year">%2$s %1$d, %3$d</string>
+    <string name="fmt_date_short">%2$s %1$d</string>
+    <string name="fmt_weekday_date">%1$s, %2$s</string>
+    <string name="fmt_decimal_sep">.</string>
+    <string name="fmt_group_sep">,</string>
+    <string name="fmt_today">Today</string>
+    <string name="fmt_yesterday">Yesterday</string>
+    <string name="fmt_unit_min">min</string>
+    <string name="fmt_unit_hour">h</string>
+    <string name="fmt_dur_min">%1$d min</string>
+    <string name="fmt_dur_hours">%1$d h</string>
+    <string name="fmt_dur_hm">%1$d h %2$d min</string>
+    <string name="fmt_unit_m">m</string>
+    <string name="fmt_unit_km">km</string>
+    <string name="fmt_unit_mi">mi</string>
+    <string name="fmt_unit_cm">cm</string>
+    <string name="fmt_unit_kg">kg</string>
+    <string name="fmt_unit_lb">lb</string>
+    <string name="fmt_never">never</string>
+    <string name="fmt_just_now">just now</string>
+    <plurals name="fmt_minutes_ago">
+        <item quantity="one">%1$d minute ago</item>
+        <item quantity="other">%1$d minutes ago</item>
+    </plurals>
+    <plurals name="fmt_hours_ago">
+        <item quantity="one">%1$d hour ago</item>
+        <item quantity="other">%1$d hours ago</item>
+    </plurals>
+    <plurals name="fmt_days_ago">
+        <item quantity="one">%1$d day ago</item>
+        <item quantity="other">%1$d days ago</item>
+    </plurals>
+    <string name="fmt_greet_morning">Good morning</string>
+    <string name="fmt_greet_day">Good afternoon</string>
+    <string name="fmt_greet_evening">Good evening</string>
+    <string name="fmt_greet_night">Good night</string>
+
+    <!-- Asosiy menyu -->
+    <string name="tab_today">Today</string>
+    <string name="tab_health">Health</string>
+    <string name="tab_device">Device</string>
+    <string name="tab_profile">Profile</string>
+
+    <!-- Bildirishnomalar -->
+    <string name="notif_ch_service">Watch connection</string>
+    <string name="notif_ch_service_desc">Ongoing connection to the watch (can be hidden, not turned off)</string>
+    <string name="notif_ch_alerts">Alerts</string>
+    <string name="notif_ch_alerts_desc">Watch disconnected</string>
+    <string name="notif_connecting">Connecting…</string>
+    <string name="notif_connected">Watch connected</string>
+    <string name="notif_connected_battery">Watch connected · battery %1$d%%</string>
+    <string name="notif_state_connecting">Connecting to the watch…</string>
+    <string name="notif_state_confirm">Confirm pairing on the watch screen</string>
+    <string name="notif_state_bt_off">Bluetooth is off</string>
+    <string name="notif_state_disconnected">Watch disconnected, reconnecting</string>
+    <string name="notif_state_unpaired">No watch paired</string>
+    <string name="notif_battery_title">Watch battery low</string>
+    <string name="notif_battery_text">Battery %1$d%%. Don\'t forget to charge it.</string>
+    <string name="notif_disconnect_title">Watch not connected</string>
+    <string name="notif_disconnect_text">Not connected for 30 minutes. Is the watch nearby and Bluetooth on?</string>
+    <string name="notif_permission_title">Watch not connected</string>
+    <string name="notif_permission_text">Allow \"Nearby devices\" for Orvell again.</string>
+
+    <!-- Ochiq kod litsenziyalari -->
+    <string name="licenses_title">Open-source licenses</string>
+    <string name="licenses_intro">Orvell uses the following open-source libraries and font. The libraries are distributed under the Apache License 2.0 and the Manrope font under the SIL Open Font License 1.1.</string>
+    <string name="licenses_group">Libraries</string>
+    <string name="licenses_footer">The AndroidX helper modules that come with these libraries are also under Apache 2.0.</string>
+    <string name="licenses_show_text">Show Apache 2.0 text</string>
+    <string name="licenses_hide_text">Hide text</string>
+
+    <!-- Taklif yuborish -->
+    <string name="feedback_title">Feedback</string>
+    <string name="feedback_subtitle">Bug, idea or question</string>
+    <string name="feedback_intro">Help make Orvell better: what didn\'t work, what you didn\'t like, or what you\'d like added? The message is sent through your mail app — Orvell itself sends nothing.</string>
+    <string name="feedback_hint">Your message</string>
+    <string name="feedback_attached">Added to the message</string>
+    <string name="feedback_attached_note">To help us understand the problem. You can delete it in your mail app.</string>
+    <string name="feedback_app_version">App version</string>
+    <string name="feedback_android_version">Android version</string>
+    <string name="feedback_phone_model">Phone model</string>
+    <string name="feedback_send_email">Send by email</string>
+    <string name="feedback_no_email_app">No mail app found. The message was copied.</string>
+    <string name="feedback_subject">Orvell feedback (%1$s)</string>
+
+    <!-- Sozlamalar -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_storage">Storage</string>
+    <string name="settings_storage_local_sub">Data stays on this phone only</string>
+    <string name="settings_storage_local">On phone</string>
+    <string name="settings_group_look">Appearance</string>
+    <string name="settings_theme">Theme</string>
+    <string name="settings_theme_system">System</string>
+    <string name="settings_theme_system_long">Follow system</string>
+    <string name="settings_theme_dark">Dark</string>
+    <string name="settings_theme_light">Light</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_units">Units</string>
+    <string name="settings_units_metric">Metric (km, kg)</string>
+    <string name="settings_units_imperial">Imperial (mi, lb)</string>
+    <string name="settings_units_metric_long">Metric (km, kg, cm)</string>
+    <string name="settings_units_imperial_long">Imperial (miles, pounds, inches)</string>
+    <string name="settings_clock24">24-hour time</string>
+    <string name="settings_group_notifications">Notifications</string>
+    <string name="settings_alert_disconnect">Watch disconnected</string>
+    <string name="settings_alert_disconnect_sub">If not connected for over 30 minutes</string>
+    <string name="settings_system_notifications">System notification settings</string>
+    <string name="settings_notifications_blocked">Notifications are off — alerts won\'t show</string>
+    <string name="settings_group_watch">Watch</string>
+    <string name="settings_background">Allow background work</string>
+    <string name="settings_background_sub">Exclude Orvell from battery optimization so the phone doesn\'t put it to sleep</string>
+    <string name="settings_group_integrations">Integrations</string>
+    <string name="settings_integrations_footer">All optional. Nothing is sent anywhere until you turn it on.</string>
+    <string name="settings_own_server">Your own server</string>
+    <string name="settings_own_server_sub">Send data to your own server</string>
+    <string name="settings_group_data">Data</string>
+    <string name="settings_export">Export data</string>
+    <string name="settings_export_sub">CSV file (Excel, Google Sheets)</string>
+    <string name="settings_export_raw">Raw watch history (diagnostics)</string>
+    <string name="settings_export_raw_sub">Saved watch records as CSV (hex). For analysis only.</string>
+    <string name="settings_export_raw_chooser">Share raw history</string>
+    <string name="settings_export_chooser">Export data</string>
+    <string name="settings_export_failed">Export failed</string>
+    <string name="settings_clear">Delete all measurements</string>
+    <string name="settings_clear_sub">Profile and settings are kept</string>
+    <string name="settings_group_app">App</string>
+    <string name="settings_privacy">Privacy policy</string>
+    <string name="settings_about">About</string>
+    <string name="settings_developer">Developer mode</string>
+    <string name="settings_developer_sub">Shows extra technical info</string>
+    <string name="settings_reset">Reset app</string>
+    <string name="settings_reset_sub">Unpairs the watch and deletes all data and settings</string>
+    <string name="settings_clear_title">Delete measurements?</string>
+    <string name="settings_clear_body">All steps, heart, sleep and other records on this phone will be deleted for good. This can\'t be undone.</string>
+    <string name="settings_clear_confirm">Delete</string>
+    <string name="settings_reset_title">Reset the app?</string>
+    <string name="settings_reset_body">The watch will be unpaired, all data and settings deleted, and the app returns to its first-launch state.</string>
+    <string name="settings_reset_confirm">Reset</string>
+
+    <!-- Ilova haqida -->
+    <string name="about_version">Version %1$s</string>
+    <string name="about_tagline">Your watch. Your data. Your rules.</string>
+    <string name="about_developer_on">Developer mode is on</string>
+    <string name="about_license">License</string>
+    <string name="about_license_sub">Proprietary software. All rights reserved.</string>
+    <string name="about_license_value">Proprietary</string>
+    <string name="about_thanks">Acknowledgements</string>
+    <string name="about_thanks_text">Earlier versions were based on the Gadgetbridge project (AGPL-3.0). The current watch protocol was written independently from our own Bluetooth captures. Orvell is not affiliated with Gadgetbridge, FitCloudPro or TopStep.</string>
+    <string name="about_author">Author</string>
+    <string name="about_author_name">Steadfast11</string>
+
+    <!-- Maxfiylik (ilova ichida; to'liq matn: docs/privacy/index.html) -->
+    <string name="privacy_short_t">In short</string>
+    <string name="privacy_short">Orvell does not sell your data, shows no ads and uses no tracking (analytics) libraries. By default all data stays only on your phone.</string>
+    <string name="privacy_collect_t">What data is used</string>
+    <string name="privacy_collect">From the watch: history records (saved on the phone), the watch\'s Bluetooth address and name. Steps, distance, calories and heart rate are decoded from the history records; sleep, blood oxygen (SpO2) and battery records are kept raw (not decoded yet). Steps, heart rate, blood oxygen, sleep and battery values saved by an earlier version stay on the phone and are not updated. Entered by you: name, sex, birth date, height, weight and goals.</string>
+    <string name="privacy_store_t">Where it is stored</string>
+    <string name="privacy_store">In the app\'s private storage on your phone. The app is excluded from backups (Google Backup). Orvell has no servers of its own.</string>
+    <string name="privacy_share_t">Who receives it</string>
+    <string name="privacy_share">No one — unless you turn something on. If you enable \"Your own server\", measurements go only to the address you enter. If you send feedback, the email goes through your own mail app.</string>
+    <string name="privacy_permissions_t">Permissions</string>
+    <string name="privacy_permissions">Nearby devices (Bluetooth) — to find and connect to the watch; on Android 11 and older the system requires the location permission for this, but Orvell does not determine your location. Notifications — for the watch connection and alerts. Run at startup — to restore the watch connection. Internet — only when your own server is enabled.</string>
+    <string name="privacy_control_t">Your control</string>
+    <string name="privacy_control">In Settings → Data you can export everything as CSV or delete it completely. Uninstalling the app also deletes all data.</string>
+    <string name="privacy_medical_t">Medical notice</string>
+    <string name="privacy_medical">Orvell is not a medical device. Readings are for information only and must not be used for diagnosis or treatment.</string>
+    <string name="privacy_children_t">Children</string>
+    <string name="privacy_children">The app is not intended for children under 13.</string>
+    <string name="privacy_contact_t">Contact</string>
+    <string name="privacy_contact">Questions: Settings → Feedback.</string>
+    <string name="privacy_updated">Last updated: October 2026</string>
+
+    <!-- O'z serveringiz -->
+    <string name="server_title">Your own server</string>
+    <string name="server_intro_t">Send data to your own server</string>
+    <string name="server_intro">A server compatible with the Life-Tracker API (POST /ingest). Watch data stays on the phone and a copy is also sent to this server — for example, for an AI assistant to read. Nothing is sent until you turn it on.</string>
+    <string name="server_url_hint">Server address (https://…)</string>
+    <string name="server_url_hint_debug">Server address (https://… or http://100.x.x.x:8787)</string>
+    <string name="server_token">Token</string>
+    <string name="server_testing">Checking…</string>
+    <string name="server_test">Test</string>
+    <string name="server_test_ok">Connection works ✓</string>
+    <string name="server_save">Save and enable</string>
+    <string name="server_status">Status</string>
+    <string name="server_enabled">Sending enabled</string>
+    <string name="server_last">Last upload</string>
+    <string name="server_last_none">not yet</string>
+    <string name="server_pending">Pending records</string>
+    <string name="server_rejected">Records rejected by the server</string>
+    <string name="server_last_error">Last error</string>
+    <string name="server_sending">Sending…</string>
+    <string name="server_send_now">Send now</string>
+    <string name="server_err_https">Only https:// addresses work in the release version</string>
+    <string name="server_err_token">Wrong token (server %1$d)</string>
+    <string name="server_err_http">Server response %1$d: %2$s</string>
+    <string name="server_err_network">Couldn\'t connect: %1$s</string>
+
+    <!-- Bugun ekrani -->
+    <string name="today_friend">friend</string>
+    <string name="watch_chip_connected">Connected</string>
+    <string name="watch_chip_connecting">Connecting</string>
+    <string name="watch_chip_confirm">Confirm on watch</string>
+    <string name="watch_chip_bt_off">Bluetooth off</string>
+    <string name="watch_chip_disconnected">Disconnected</string>
+    <string name="watch_chip_unpaired">No watch</string>
+    <string name="today_pair_title">Connect your watch</string>
+    <string name="today_pair_body">Steps, heart, sleep and other readings come from the watch</string>
+    <string name="today_empty_title">No data yet</string>
+    <string name="today_empty_body">Step and heart-rate values are still being analyzed. Watch history is saved on the phone.</string>
+    <plurals name="unit_steps">
+        <item quantity="one">step</item>
+        <item quantity="other">steps</item>
+    </plurals>
+    <string name="metric_steps">Steps</string>
+    <string name="metric_distance">Distance</string>
+    <string name="metric_calories">Calories</string>
+    <string name="unit_kcal">kcal</string>
+    <string name="unit_bpm">bpm</string>
+    <string name="unit_per_min">/min</string>
+    <string name="unit_mmhg">mmHg</string>
+    <string name="today_of_goal">/ %1$s</string>
+    <string name="today_by_hour">By hour</string>
+    <string name="today_steps_phone">Steps from the phone sensor (not the watch), since Orvell was opened.</string>
+    <string name="today_heart_title">Heart rate</string>
+    <string name="today_heart_sleep">During sleep</string>
+    <string name="today_min_value">min %1$s</string>
+    <string name="today_avg_value">avg %1$s</string>
+    <string name="today_max_value">max %1$s</string>
+    <string name="today_heart_none">No heart rate data for today yet</string>
+    <string name="today_sleep_title">Sleep</string>
+    <string name="today_sleep_none">Sleep values are not decoded yet</string>
+    <string name="today_sleep_none_hint">Watch history is saved on the phone, but sleep is not shown yet</string>
+    <string name="today_sleep_goal">goal %1$s</string>
+    <string name="stage_deep">Deep</string>
+    <string name="stage_light">Light</string>
+    <string name="stage_rem">REM</string>
+    <string name="stage_awake">Awake</string>
+    <string name="today_stage_value">%1$s %2$s</string>
+    <string name="metric_oxygen_short">Oxygen</string>
+    <string name="metric_pressure_short">Blood pressure</string>
+    <string name="metric_breath_short">Breathing</string>
+    <plurals name="today_spo2_avg">
+        <item quantity="one">avg %1$d%% · %2$d reading</item>
+        <item quantity="other">avg %1$d%% · %2$d readings</item>
+    </plurals>
+    <string name="today_no_reading">no readings</string>
+    <string name="today_at_time">at %1$s</string>
+    <string name="today_week_avg">Weekly average</string>
+    <plurals name="today_days_at_goal">
+        <item quantity="one">%1$d day at goal</item>
+        <item quantity="other">%1$d days at goal</item>
+    </plurals>
+    <string name="today_this_week">This week</string>
+
+    <!-- Ko'rsatkichlar va batafsil ekran -->
+    <string name="kind_activity">Activity</string>
+    <string name="kind_heart">Heart rate</string>
+    <string name="kind_sleep">Sleep</string>
+    <string name="kind_oxygen">Blood oxygen</string>
+    <string name="kind_pressure">Blood pressure</string>
+    <string name="kind_breath">Breathing</string>
+    <string name="about_activity">Steps are counted by the watch\'s motion sensor. Distance and calories are estimated from steps, height and weight.</string>
+    <string name="about_heart">Heart rate from the watch history: one value per 5 minutes, saved on the phone.</string>
+    <string name="about_sleep">At night the watch detects sleep stages from movement and heart rate. It may record a night in several pieces — Orvell joins pieces with gaps of up to 2 hours into one night.</string>
+    <string name="about_oxygen">SpO₂ is blood oxygen saturation. Wrist watches are not as accurate as a medical pulse oximeter.</string>
+    <string name="about_pressure">Wrist watches ESTIMATE blood pressure with an optical sensor. This does not replace a cuff blood pressure monitor.</string>
+    <string name="about_breath">Breaths per minute — estimated by the watch during a live measurement.</string>
+    <string name="health_title">Health</string>
+    <string name="health_subtitle">Last 7 days</string>
+    <plurals name="unit_steps_per_day">
+        <item quantity="one">step/day</item>
+        <item quantity="other">steps/day</item>
+    </plurals>
+    <string name="health_list">list of readings</string>
+    <string name="health_avg7">7-day average</string>
+    <plurals name="health_records">
+        <item quantity="one">%1$s record on this phone</item>
+        <item quantity="other">%1$s records on this phone</item>
+    </plurals>
+    <string name="health_since">" · since %1$s"</string>
+    <string name="health_local_only">" · stored on this phone only"</string>
+    <string name="health_no_data">No values for this metric yet: watch history is saved, but the values are not analyzed yet.</string>
+    <string name="detail_day">Day</string>
+    <string name="detail_week">Week</string>
+    <string name="detail_month">Month</string>
+    <string name="detail_about">About this metric</string>
+    <string name="detail_goal_line">Goal %1$s · %2$s</string>
+    <string name="detail_active_hours">Active hours</string>
+    <string name="detail_avg">Average</string>
+    <string name="detail_min">Min</string>
+    <string name="detail_max">Max</string>
+    <string name="detail_readings">Readings</string>
+    <string name="detail_sleep_none">No sleep recorded for this day</string>
+    <string name="detail_in_bed">In bed</string>
+    <string name="detail_bed">Went to bed</string>
+    <string name="detail_wake">Woke up</string>
+    <string name="detail_asleep">Asleep</string>
+    <string name="stage_deep_long">Deep sleep</string>
+    <string name="stage_light_long">Light sleep</string>
+    <string name="detail_stage_value">%1$s · %2$d%%</string>
+    <string name="detail_sleep_gap">The watch did not record %1$s between pieces as a stage.</string>
+    <string name="detail_last">Latest</string>
+    <string name="detail_pressure_day_only">Blood pressure is shown per day — switch to Day.</string>
+    <string name="detail_highest">Highest</string>
+    <string name="detail_lowest">Lowest</string>
+    <string name="detail_at_goal">At goal</string>
+    <string name="detail_days">Days</string>
+    <plurals name="detail_n_days">
+        <item quantity="one">%1$d day</item>
+        <item quantity="other">%1$d days</item>
+    </plurals>
+    <string name="detail_total">Total</string>
+    <string name="detail_no_period_data">No data for this period</string>
+
+    <!-- Qurilma va soat ulash -->
+    <string name="device_title">Device</string>
+    <string name="device_your_watch">Your watch</string>
+    <string name="device_watch_default">Watch</string>
+    <string name="device_not_paired">No watch connected</string>
+    <string name="device_not_paired_body">Watches that work with the FitCloudPro app (FitCloud / TopStep) are supported.</string>
+    <string name="device_pair">Connect watch</string>
+    <string name="device_error_title">Connection error</string>
+    <string name="device_error_hint">If the watch is bound to another app (e.g. FitCloudPro), unpair it there first.</string>
+    <string name="device_time">Time and date</string>
+    <string name="device_time_sub">Set from the phone on every connection</string>
+    <string name="device_bt_address">Bluetooth address</string>
+    <string name="device_bind_id">Binding ID</string>
+    <string name="device_app_settings">App settings</string>
+    <string name="device_unpair">Unpair watch</string>
+    <string name="device_unpair_sub">The watch is removed from the app; data stays on the phone</string>
+    <string name="device_unpair_title">Unpair the watch?</string>
+    <string name="device_unpair_body">The connection stops. Collected data stays on the phone. To reconnect you\'ll need to confirm on the watch again.</string>
+    <string name="device_unpair_confirm">Unpair</string>
+    <string name="device_state_connected">Connected</string>
+    <string name="device_state_connecting">Connecting…</string>
+    <string name="device_state_confirm">Confirm on watch</string>
+    <string name="device_state_bt_off">Bluetooth off</string>
+    <string name="device_state_disconnected">Disconnected</string>
+    <string name="device_battery">Battery %1$d%%</string>
+    <string name="device_synced_new">Synced: %1$s · new records: %2$d</string>
+    <string name="device_not_synced">Not synced yet</string>
+    <string name="device_history_total">Saved history records: %1$d</string>
+    <string name="device_sync">Sync now</string>
+    <string name="device_syncing">Syncing…</string>
+    <string name="device_sync_need_connection">Connect the watch to sync</string>
+    <string name="device_reconnect">Reconnect</string>
+    <string name="device_bt_off_banner">Bluetooth is off — the watch can\'t connect</string>
+    <string name="device_bt_turn_on">Turn on</string>
+    <string name="device_perm_banner">\"Nearby devices\" permission missing — the watch can\'t connect</string>
+    <string name="device_open_app_settings">Open app settings</string>
+    <string name="pair_title">Connect watch</string>
+    <string name="pair_perm_title">Bluetooth permission</string>
+    <string name="pair_perm_body">Orvell needs the \"Nearby devices\" permission to find and connect to the watch. Your location is not collected.</string>
+    <string name="pair_perm_body_location">On Android 11 and older, the system requires the location permission for Bluetooth scanning. Orvell does not determine or store your location.</string>
+    <string name="pair_perm_denied">Permission was denied. You can turn it on in app settings.</string>
+    <string name="pair_bt_title">Bluetooth is off</string>
+    <string name="pair_bt_body">Turn on Bluetooth to talk to the watch.</string>
+    <string name="pair_bt_button">Turn on Bluetooth</string>
+    <string name="pair_location_title">Location services are off</string>
+    <string name="pair_location_body">On Android 11 and older, the phone\'s location services must be on to find Bluetooth devices. Orvell does not read your location.</string>
+    <string name="pair_location_button">Turn on location</string>
+    <string name="pair_confirm_title">Confirm on the watch screen</string>
+    <string name="pair_connecting_title">Connecting to %1$s…</string>
+    <string name="pair_confirm_body">A pairing request appeared on your watch — tap ✓.</string>
+    <string name="pair_connecting_body">Keep the watch close to the phone. This can take 10–30 seconds.</string>
+    <string name="pair_other_app_hint">If the watch is bound to another app (e.g. FitCloudPro), unpair it there or uninstall that app first.</string>
+    <string name="pair_choose_other">Choose another watch</string>
+    <string name="pair_done_title">Watch connected</string>
+    <string name="pair_done_body">The watch is connected. Tap «Sync now» to fetch its history.</string>
+    <string name="pair_later">I\'ll connect later</string>
+    <string name="scan_searching">Looking for watches…</string>
+    <string name="scan_done">Search finished</string>
+    <string name="scan_hint">Make sure the watch is on and close to the phone. Pick your watch from the list.</string>
+    <string name="scan_found">Devices found</string>
+    <string name="scan_compatible">"Compatible · "</string>
+    <string name="scan_signal">signal %1$s</string>
+    <string name="scan_none">Nothing found. Wake the watch screen and try again.</string>
+    <string name="scan_again">Search again</string>
+    <string name="signal_excellent">excellent</string>
+    <string name="signal_good">good</string>
+    <string name="signal_fair">fair</string>
+    <string name="signal_weak">weak</string>
+
+    <!-- Onboarding -->
+    <string name="onb_about_title">About you</string>
+    <string name="onb_about_body">To estimate distance and calories correctly. This never leaves your phone.</string>
+    <string name="onb_pair_title">Connect your watch</string>
+    <string name="onb_pair_body">Watches that work with FitCloudPro (FitCloud / TopStep) are supported.</string>
+    <string name="onb_feature1_t">All your readings in one place</string>
+    <string name="onb_feature1">Connect the watch, sync its time and keep its history on the phone</string>
+    <string name="onb_feature2_t">Your data is yours</string>
+    <string name="onb_feature2">No account needed. Nothing leaves without your permission</string>
+    <string name="onb_feature3_t">No ads, no trackers</string>
+    <string name="onb_feature3">No analytics or advertising libraries</string>
+    <string name="onb_start">Get started</string>
+    <string name="onb_storage_title">Where is your data stored?</string>
+    <string name="onb_storage_body">You can export or delete it any time in Settings → Data.</string>
+    <string name="onb_local_title">Only on this phone</string>
+    <string name="onb_local_1">No account or internet needed</string>
+    <string name="onb_local_2">Data is not sent anywhere</string>
+    <string name="onb_local_3">Moving to a new phone works via export</string>
+    <string name="onb_goals_title">Daily goals</string>
+    <string name="onb_goals_body">The rings fill up toward these goals. Change them later in Profile.</string>
+    <string name="onb_goal_steps">Steps</string>
+    <string name="onb_goal_sleep">Sleep</string>
+    <string name="onb_notif_title">Notifications</string>
+    <string name="onb_notif_body">We\'ll tell you when the connection to the watch drops. No ads.</string>
+    <string name="onb_notif_granted">Allowed</string>
+    <string name="onb_notif_requested">Permission will be requested</string>
+    <string name="onb_notif_denied">Not allowed — alerts won\'t show. You can turn them on later in system settings.</string>
+    <string name="onb_notif_bt_later">The Bluetooth permission is requested in the next step, when searching for the watch.</string>
+    <string name="onb_skip">Skip</string>
+    <string name="onb_done_title">All set!</string>
+    <string name="onb_done_title_name">All set, %1$s!</string>
+    <string name="onb_done_body">The watch is connected. Tap «Sync now» to fetch its history.</string>
+    <string name="onb_open">Open Orvell</string>
+
+    <!-- Profil -->
+    <string name="profile_title">Profile</string>
+    <string name="profile_name_placeholder">Your name</string>
+    <plurals name="profile_age">
+        <item quantity="one">%1$d year</item>
+        <item quantity="other">%1$d years</item>
+    </plurals>
+    <string name="profile_storage_local">This phone only</string>
+    <string name="profile_with_orvell">With Orvell</string>
+    <plurals name="unit_days">
+        <item quantity="one">day</item>
+        <item quantity="other">days</item>
+    </plurals>
+    <string name="profile_30_days">In 30 days</string>
+    <string name="profile_record">Record</string>
+    <string name="profile_goals">Daily goals</string>
+    <string name="profile_goal_steps">Steps</string>
+    <string name="profile_goal_sleep">Sleep</string>
+    <string name="profile_goal_kcal">Active calories</string>
+    <string name="profile_goal_distance">Distance</string>
+    <string name="profile_body">Body</string>
+    <string name="profile_body_footer">Height, weight, age and sex are used to estimate distance and calories. This never leaves your phone.</string>
+    <string name="profile_height">Height</string>
+    <string name="profile_weight">Weight</string>
+    <string name="profile_bmi">Body mass index</string>
+    <string name="profile_bmi_sub">For information, not a diagnosis</string>
+    <string name="profile_birth">Birth date</string>
+    <string name="profile_not_set">Not set</string>
+    <string name="profile_choose">Choose</string>
+    <string name="profile_sex">Sex</string>
+    <string name="profile_male">Male</string>
+    <string name="profile_female">Female</string>
+    <string name="profile_sex_unset">Not specified</string>
+    <string name="profile_sex_hide">Prefer not to say</string>
+    <string name="profile_privacy">Privacy</string>
+    <string name="profile_goal_steps_dialog">Daily step goal</string>
+    <string name="profile_goal_sleep_dialog">Sleep goal</string>
+    <string name="profile_goal_kcal_dialog">Active calories goal</string>
+    <string name="profile_goal_distance_dialog">Distance goal</string>
+    <string name="profile_edit_title">Edit profile</string>
+    <string name="profile_name">Name</string>
+
+    <!-- Bo'sh holatlar -->
+    <string name="detail_no_data_day">No readings this day</string>
+
+    <!-- Redizayn: umumiy (tugmalar tavsifi, grafiklar) -->
+    <string name="cd_back">Back</string>
+    <string name="cd_close">Close</string>
+    <string name="cd_previous">Previous period</string>
+    <string name="cd_next">Next period</string>
+    <string name="cd_settings">Settings</string>
+    <string name="cd_edit_profile">Edit profile</string>
+    <string name="cd_avatar_color">Avatar color %1$d</string>
+    <string name="chart_goal">goal</string>
+    <string name="hypno_inspect">%1$s · %2$s–%3$s · %4$s</string>
+    <string name="hr_zones_title">Heart rate zones</string>
+    <string name="hr_zones_note">Estimate: max heart rate = 220 − age. For information only.</string>
+    <string name="hr_zones_need_age">Add your birth date in Profile to see zones.</string>
+    <string name="hr_zone_0">Rest</string>
+    <string name="hr_zone_1">Very light</string>
+    <string name="hr_zone_2">Light</string>
+    <string name="hr_zone_3">Moderate</string>
+    <string name="hr_zone_4">Hard</string>
+    <string name="hr_zone_5">Maximum</string>
+    <string name="rings_cd">Steps %1$s of %2$s, distance %3$s, calories %4$s</string>
+    <string name="undo">Undo</string>
+
+    <!-- Redizayn: Bugun -->
+    <string name="insight_sleep_more">You slept %1$s more than your weekly average</string>
+    <string name="insight_sleep_less">You slept %1$s less than your weekly average</string>
+    <plurals name="insight_goal">
+        <item quantity="one">Daily goal done — %1$s step</item>
+        <item quantity="other">Daily goal done — %1$s steps</item>
+    </plurals>
+    <plurals name="insight_streak">
+        <item quantity="one">%1$d day in a row at your goal</item>
+        <item quantity="other">%1$d days in a row at your goal</item>
+    </plurals>
+    <plurals name="insight_steps_more">
+        <item quantity="one">%1$s step more than your daily average</item>
+        <item quantity="other">%1$s steps more than your daily average</item>
+    </plurals>
+    <plurals name="insight_steps_less">
+        <item quantity="one">%1$s step fewer than your daily average</item>
+        <item quantity="other">%1$s steps fewer than your daily average</item>
+    </plurals>
+    <string name="insight_hr_higher">Resting heart rate is %1$d bpm above your usual</string>
+    <string name="insight_hr_lower">Resting heart rate is %1$d bpm below your usual</string>
+    <plurals name="insight_to_goal">
+        <item quantity="one">%1$s step to your goal</item>
+        <item quantity="other">%1$s steps to your goal</item>
+    </plurals>
+    <string name="hint_tap_card">Tap any card for details</string>
+    <string name="today_open_details">Details</string>
+
+    <!-- Redizayn: Salomatlik va batafsil -->
+    <string name="trend_up">↑ %1$d%%</string>
+    <string name="trend_down">↓ %1$d%%</string>
+    <string name="trend_up_cd">%1$d%% more than the previous 7 days</string>
+    <string name="trend_down_cd">%1$d%% less than the previous 7 days</string>
+    <string name="detail_tooltip_hr">%1$s · %2$d bpm</string>
+    <string name="detail_tooltip_spo2">%1$s · %2$d%%</string>
+    <string name="detail_interact_hint">Tap or drag the chart for exact values</string>
+
+    <!-- Redizayn: Qurilma -->
+    <string name="device_unpair_pending">Unpairing the watch…</string>
+    <string name="device_watch_cd">Watch: %1$s, battery %2$s</string>
+    <string name="device_charging">Charging</string>
+
+    <!-- Onboarding v2 -->
+    <string name="onb_step_cd">Step %1$d of %2$d</string>
+    <string name="onb_step_count">%1$d/%2$d</string>
+
+    <!-- Profil v2: seriya va yutuqlar -->
+    <string name="profile_streak_title">Streak</string>
+    <string name="profile_streak_best">Best</string>
+    <string name="profile_streak_hint">Days in a row you hit your step goal. Today doesn\'t break the streak until it\'s over.</string>
+    <string name="profile_streak_cd">Step goal met on %1$d of the last %2$d days</string>
+    <string name="profile_achievements">Achievements</string>
+    <string name="profile_achievements_footer">Based on the last 90 days of data.</string>
+    <string name="profile_achievements_count">%1$d/%2$d</string>
+    <string name="ach_earned">Earned</string>
+    <string name="ach_progress">%1$s / %2$s</string>
+    <string name="ach_first_day">First day</string>
+    <string name="ach_first_day_d">First data from your watch</string>
+    <string name="ach_streak_3">3 days in a row</string>
+    <string name="ach_streak_3_d">Step goal 3 days running</string>
+    <string name="ach_streak_7">One week</string>
+    <string name="ach_streak_7_d">Step goal 7 days running</string>
+    <string name="ach_streak_30">One month</string>
+    <string name="ach_streak_30_d">Step goal 30 days running</string>
+    <string name="ach_steps_10k">10,000 steps</string>
+    <string name="ach_steps_10k_d">10,000 steps in one day</string>
+    <string name="ach_steps_20k">20,000 steps</string>
+    <string name="ach_steps_20k_d">20,000 steps in one day</string>
+    <string name="ach_sleep_5">Well rested</string>
+    <string name="ach_sleep_5_d">Sleep goal reached on 5 nights</string>
+    <string name="ach_total_100k">100,000 steps</string>
+    <string name="ach_total_100k_d">Total within 90 days</string>
+
+    <!-- Sozlamalar v2: qidiruv, qaytarish; litsenziyalar: shrift -->
+    <string name="settings_search">Search settings</string>
+    <string name="settings_search_empty_t">Nothing found</string>
+    <string name="settings_search_empty">No settings match “%1$s”. Try another word.</string>
+    <string name="cd_clear_search">Clear search</string>
+    <string name="settings_clear_pending">Measurements will be deleted</string>
+    <string name="licenses_fonts">Fonts</string>
+    <string name="licenses_font_sub">Interface typeface</string>
+    <string name="licenses_show_ofl">Show OFL 1.1 text</string>
+
+    <string name="legacy_notice">The values below were saved by an earlier version. Their interpretation is not verified and they are not updated.</string>
+    <string name="err_account">The account string is invalid (ASCII only, up to 32 bytes)</string>
+    <string name="err_no_bluetooth">Bluetooth is not available</string>
+    <string name="err_connect_failed">The connection could not start</string>
+    <string name="err_discover">Could not search for services</string>
+    <string name="err_services_status">Services not found (code %1$d)</string>
+    <string name="err_service_missing">The watch service was not found</string>
+    <string name="err_channels_missing">The watch channels were not found</string>
+    <string name="err_notify_status">Could not enable notifications (code %1$d)</string>
+    <string name="err_descriptor_missing">The notification descriptor was not found</string>
+    <string name="err_notify_write">Could not write the notification setting</string>
+    <string name="err_write_mtu">Write rejected (MTU=%1$d)</string>
+    <string name="err_write_mtu_bind">Could not send (MTU=%1$d)</string>
+    <string name="err_bind_rejected">Pairing rejected (response code 0x%1$02X)</string>
+    <string name="err_write">Write rejected</string>
+    <string name="err_unbind_nores">The watch did not answer the unpair request</string>
+    <string name="err_unbind_rejected">The watch rejected the unpair (response code 0x%1$02X)</string>
+    <string name="err_hist_pending">History: the pending size is invalid</string>
+    <string name="err_hist_length">History: unexpected record size</string>
+    <string name="err_hist_second">History: unexpected second record for this counter</string>
+    <string name="err_hist_size">History record size does not match</string>
+    <string name="err_hist_store">The history record was not saved</string>
+    <string name="err_hist_timeout">The watch did not answer the history request</string>
+    <string name="err_hist_mismatch">History: the record size came back different twice</string>
+    <string name="err_face_rejected">The watch did not accept the watch face</string>
+    <string name="err_face_disconnected">Connection lost while sending the watch face</string>
+</resources>

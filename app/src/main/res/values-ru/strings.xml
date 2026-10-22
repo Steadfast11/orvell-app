@@ -1,0 +1,688 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Umumiy -->
+    <string name="common_continue">Продолжить</string>
+    <string name="common_cancel">Отмена</string>
+    <string name="common_save">Сохранить</string>
+    <string name="common_select">Выбрать</string>
+    <string name="common_grant">Разрешить</string>
+    <string name="common_off">Выкл.</string>
+    <string name="common_on">Вкл.</string>
+    <string name="common_not_medical">Orvell не является медицинским изделием и не ставит диагнозов.</string>
+    <string name="common_disclaimer">Orvell не является медицинским изделием. Показатели носят справочный характер; по вопросам здоровья обращайтесь к врачу.</string>
+
+    <!-- Format: sana, vaqt, birliklar -->
+    <string-array name="fmt_months">
+        <item>января</item>
+        <item>февраля</item>
+        <item>марта</item>
+        <item>апреля</item>
+        <item>мая</item>
+        <item>июня</item>
+        <item>июля</item>
+        <item>августа</item>
+        <item>сентября</item>
+        <item>октября</item>
+        <item>ноября</item>
+        <item>декабря</item>
+    </string-array>
+    <string-array name="fmt_months_short">
+        <item>янв</item>
+        <item>фев</item>
+        <item>мар</item>
+        <item>апр</item>
+        <item>мая</item>
+        <item>июн</item>
+        <item>июл</item>
+        <item>авг</item>
+        <item>сен</item>
+        <item>окт</item>
+        <item>ноя</item>
+        <item>дек</item>
+    </string-array>
+    <string-array name="fmt_weekdays">
+        <item>Понедельник</item>
+        <item>Вторник</item>
+        <item>Среда</item>
+        <item>Четверг</item>
+        <item>Пятница</item>
+        <item>Суббота</item>
+        <item>Воскресенье</item>
+    </string-array>
+    <string-array name="fmt_weekdays_short">
+        <item>Пн</item>
+        <item>Вт</item>
+        <item>Ср</item>
+        <item>Чт</item>
+        <item>Пт</item>
+        <item>Сб</item>
+        <item>Вс</item>
+    </string-array>
+    <string name="fmt_date">%1$d %2$s</string>
+    <string name="fmt_date_year">%1$d %2$s %3$d</string>
+    <string name="fmt_date_short">%1$d %2$s</string>
+    <string name="fmt_weekday_date">%1$s, %2$s</string>
+    <string name="fmt_decimal_sep">,</string>
+    <string name="fmt_group_sep">\u00A0</string>
+    <string name="fmt_today">Сегодня</string>
+    <string name="fmt_yesterday">Вчера</string>
+    <string name="fmt_unit_min">мин</string>
+    <string name="fmt_unit_hour">ч</string>
+    <string name="fmt_dur_min">%1$d мин</string>
+    <string name="fmt_dur_hours">%1$d ч</string>
+    <string name="fmt_dur_hm">%1$d ч %2$d мин</string>
+    <string name="fmt_unit_m">м</string>
+    <string name="fmt_unit_km">км</string>
+    <string name="fmt_unit_mi">миль</string>
+    <string name="fmt_unit_cm">см</string>
+    <string name="fmt_unit_kg">кг</string>
+    <string name="fmt_unit_lb">фнт</string>
+    <string name="fmt_never">никогда</string>
+    <string name="fmt_just_now">только что</string>
+    <plurals name="fmt_minutes_ago">
+        <item quantity="one">%1$d минуту назад</item>
+        <item quantity="few">%1$d минуты назад</item>
+        <item quantity="many">%1$d минут назад</item>
+        <item quantity="other">%1$d минуты назад</item>
+    </plurals>
+    <plurals name="fmt_hours_ago">
+        <item quantity="one">%1$d час назад</item>
+        <item quantity="few">%1$d часа назад</item>
+        <item quantity="many">%1$d часов назад</item>
+        <item quantity="other">%1$d часа назад</item>
+    </plurals>
+    <plurals name="fmt_days_ago">
+        <item quantity="one">%1$d день назад</item>
+        <item quantity="few">%1$d дня назад</item>
+        <item quantity="many">%1$d дней назад</item>
+        <item quantity="other">%1$d дня назад</item>
+    </plurals>
+    <string name="fmt_greet_morning">Доброе утро</string>
+    <string name="fmt_greet_day">Добрый день</string>
+    <string name="fmt_greet_evening">Добрый вечер</string>
+    <string name="fmt_greet_night">Доброй ночи</string>
+
+    <!-- Asosiy menyu -->
+    <string name="tab_today">Сегодня</string>
+    <string name="tab_health">Здоровье</string>
+    <string name="tab_device">Устройство</string>
+    <string name="tab_profile">Профиль</string>
+
+    <!-- Bildirishnomalar -->
+    <string name="notif_ch_service">Подключение часов</string>
+    <string name="notif_ch_service_desc">Постоянное подключение к часам (можно скрыть, но не отключить)</string>
+    <string name="notif_ch_alerts">Оповещения</string>
+    <string name="notif_ch_alerts_desc">Часы отключены</string>
+    <string name="notif_connecting">Подключение…</string>
+    <string name="notif_connected">Часы подключены</string>
+    <string name="notif_connected_battery">Часы подключены · заряд %1$d%%</string>
+    <string name="notif_state_connecting">Подключение к часам…</string>
+    <string name="notif_state_confirm">Подтвердите сопряжение на экране часов</string>
+    <string name="notif_state_bt_off">Bluetooth выключен</string>
+    <string name="notif_state_disconnected">Часы отключены, переподключение</string>
+    <string name="notif_state_unpaired">Часы не сопряжены</string>
+    <string name="notif_battery_title">Низкий заряд часов</string>
+    <string name="notif_battery_text">Заряд %1$d%%. Не забудьте зарядить.</string>
+    <string name="notif_disconnect_title">Нет связи с часами</string>
+    <string name="notif_disconnect_text">Нет подключения уже 30 минут. Часы рядом, Bluetooth включён?</string>
+    <string name="notif_permission_title">Часы не подключены</string>
+    <string name="notif_permission_text">Снова разрешите Orvell доступ к «Устройствам поблизости».</string>
+
+    <!-- Ochiq kod litsenziyalari -->
+    <string name="licenses_title">Лицензии открытого ПО</string>
+    <string name="licenses_intro">Orvell использует следующие библиотеки и шрифт с открытым исходным кодом. Библиотеки распространяются по лицензии Apache 2.0, шрифт Manrope — по SIL Open Font License 1.1.</string>
+    <string name="licenses_group">Библиотеки</string>
+    <string name="licenses_footer">Вспомогательные модули AndroidX, поставляемые с этими библиотеками, также распространяются по Apache 2.0.</string>
+    <string name="licenses_show_text">Показать текст Apache 2.0</string>
+    <string name="licenses_hide_text">Скрыть текст</string>
+
+    <!-- Taklif yuborish -->
+    <string name="feedback_title">Обратная связь</string>
+    <string name="feedback_subtitle">Ошибка, идея или вопрос</string>
+    <string name="feedback_intro">Помогите улучшить Orvell: что не работает, что не понравилось или что стоит добавить? Сообщение отправляется через ваше почтовое приложение — сам Orvell ничего не отправляет.</string>
+    <string name="feedback_hint">Ваше сообщение</string>
+    <string name="feedback_attached">Будет добавлено к сообщению</string>
+    <string name="feedback_attached_note">Чтобы понять проблему. Можно удалить в почтовом приложении.</string>
+    <string name="feedback_app_version">Версия приложения</string>
+    <string name="feedback_android_version">Версия Android</string>
+    <string name="feedback_phone_model">Модель телефона</string>
+    <string name="feedback_send_email">Отправить по email</string>
+    <string name="feedback_no_email_app">Почтовое приложение не найдено. Сообщение скопировано.</string>
+    <string name="feedback_subject">Отзыв об Orvell (%1$s)</string>
+
+    <!-- Sozlamalar -->
+    <string name="settings_title">Настройки</string>
+    <string name="settings_storage">Хранение данных</string>
+    <string name="settings_storage_local_sub">Данные только на этом телефоне</string>
+    <string name="settings_storage_local">На телефоне</string>
+    <string name="settings_group_look">Оформление</string>
+    <string name="settings_theme">Тема</string>
+    <string name="settings_theme_system">Системная</string>
+    <string name="settings_theme_system_long">Как в системе</string>
+    <string name="settings_theme_dark">Тёмная</string>
+    <string name="settings_theme_light">Светлая</string>
+    <string name="settings_language">Язык</string>
+    <string name="settings_units">Единицы измерения</string>
+    <string name="settings_units_metric">Метрические (км, кг)</string>
+    <string name="settings_units_imperial">Имперские (мили, фунты)</string>
+    <string name="settings_units_metric_long">Метрические (км, кг, см)</string>
+    <string name="settings_units_imperial_long">Имперские (мили, фунты, дюймы)</string>
+    <string name="settings_clock24">24-часовой формат</string>
+    <string name="settings_group_notifications">Уведомления</string>
+    <string name="settings_alert_disconnect">Часы отключились</string>
+    <string name="settings_alert_disconnect_sub">Если нет связи дольше 30 минут</string>
+    <string name="settings_system_notifications">Системные настройки уведомлений</string>
+    <string name="settings_notifications_blocked">Уведомления отключены — оповещения не будут показаны</string>
+    <string name="settings_group_watch">Часы</string>
+    <string name="settings_background">Работа в фоне</string>
+    <string name="settings_background_sub">Исключите Orvell из оптимизации батареи, чтобы телефон не усыплял приложение</string>
+    <string name="settings_group_integrations">Интеграции</string>
+    <string name="settings_integrations_footer">Всё необязательно. Пока вы не включите, данные никуда не отправляются.</string>
+    <string name="settings_own_server">Свой сервер</string>
+    <string name="settings_own_server_sub">Отправлять данные на ваш сервер</string>
+    <string name="settings_group_data">Данные</string>
+    <string name="settings_export">Экспорт данных</string>
+    <string name="settings_export_sub">Файл CSV (Excel, Google Таблицы)</string>
+    <string name="settings_export_raw">Сырая история часов (диагностика)</string>
+    <string name="settings_export_raw_sub">Записи часов в CSV (hex). Только для анализа.</string>
+    <string name="settings_export_raw_chooser">Поделиться сырой историей</string>
+    <string name="settings_export_chooser">Экспорт данных</string>
+    <string name="settings_export_failed">Не удалось экспортировать</string>
+    <string name="settings_clear">Удалить все измерения</string>
+    <string name="settings_clear_sub">Профиль и настройки сохранятся</string>
+    <string name="settings_group_app">Приложение</string>
+    <string name="settings_privacy">Политика конфиденциальности</string>
+    <string name="settings_about">О приложении</string>
+    <string name="settings_developer">Режим разработчика</string>
+    <string name="settings_developer_sub">Показывает доп. техническую информацию</string>
+    <string name="settings_reset">Сбросить приложение</string>
+    <string name="settings_reset_sub">Часы отключатся, все данные и настройки удалятся</string>
+    <string name="settings_clear_title">Удалить измерения?</string>
+    <string name="settings_clear_body">Все записи о шагах, пульсе, сне и прочем на этом телефоне будут удалены навсегда. Это нельзя отменить.</string>
+    <string name="settings_clear_confirm">Удалить</string>
+    <string name="settings_reset_title">Сбросить приложение?</string>
+    <string name="settings_reset_body">Часы отключатся, все данные и настройки удалятся, приложение вернётся к состоянию первого запуска.</string>
+    <string name="settings_reset_confirm">Сбросить</string>
+
+    <!-- Ilova haqida -->
+    <string name="about_version">Версия %1$s</string>
+    <string name="about_tagline">Ваши часы. Ваши данные. Ваши правила.</string>
+    <string name="about_developer_on">Режим разработчика включён</string>
+    <string name="about_license">Лицензия</string>
+    <string name="about_license_sub">Программа с закрытым исходным кодом. Все права защищены.</string>
+    <string name="about_license_value">Закрытая</string>
+    <string name="about_thanks">Благодарности</string>
+    <string name="about_thanks_text">Ранние версии основывались на проекте Gadgetbridge (AGPL-3.0). Текущий протокол часов написан независимо, на основе собственных Bluetooth-логов. Orvell не связан с Gadgetbridge, FitCloudPro или TopStep.</string>
+    <string name="about_author">Автор</string>
+    <string name="about_author_name">Steadfast11</string>
+
+    <!-- Maxfiylik (ilova ichida; to'liq matn: docs/privacy/index.html) -->
+    <string name="privacy_short_t">Коротко</string>
+    <string name="privacy_short">Orvell не продаёт ваши данные, не показывает рекламу и не использует трекеры (аналитику). По умолчанию все данные хранятся только на вашем телефоне.</string>
+    <string name="privacy_collect_t">Какие данные используются</string>
+    <string name="privacy_collect">С часов: записи истории (хранятся на телефоне), Bluetooth-адрес и имя часов. Из записей истории расшифровываются шаги, расстояние, калории и пульс; записи сна, кислорода (SpO2) и заряда хранятся в исходном виде, пока не расшифрованы. Значения шагов, пульса, кислорода, сна и заряда, сохранённые прежней версией, остаются на телефоне и не обновляются. Введённые вами: имя, пол, дата рождения, рост, вес и цели.</string>
+    <string name="privacy_store_t">Где хранится</string>
+    <string name="privacy_store">В памяти приложения на вашем телефоне. Приложение не попадает в резервные копии (Google Backup). У Orvell нет собственных серверов.</string>
+    <string name="privacy_share_t">Кому передаётся</string>
+    <string name="privacy_share">Никому — пока вы сами не включите. Если включить «Свой сервер», измерения отправляются только на указанный вами адрес. Отзыв отправляется через ваше почтовое приложение.</string>
+    <string name="privacy_permissions_t">Разрешения</string>
+    <string name="privacy_permissions">Устройства поблизости (Bluetooth) — чтобы найти часы и подключиться; на Android 11 и старше система требует для этого разрешение на геолокацию, но Orvell не определяет ваше местоположение. Уведомления — для подключения часов и оповещений. Запуск при включении — чтобы восстановить связь с часами. Интернет — только если включён свой сервер.</string>
+    <string name="privacy_control_t">Управление данными</string>
+    <string name="privacy_control">В Настройки → Данные можно экспортировать всё в CSV или полностью удалить. При удалении приложения удаляются и все данные.</string>
+    <string name="privacy_medical_t">Медицинское предупреждение</string>
+    <string name="privacy_medical">Orvell не является медицинским изделием. Показатели носят справочный характер и не должны использоваться для диагностики или лечения.</string>
+    <string name="privacy_children_t">Дети</string>
+    <string name="privacy_children">Приложение не предназначено для детей младше 13 лет.</string>
+    <string name="privacy_contact_t">Связь</string>
+    <string name="privacy_contact">Вопросы: Настройки → Обратная связь.</string>
+    <string name="privacy_updated">Обновлено: октябрь 2026</string>
+
+    <!-- O'z serveringiz -->
+    <string name="server_title">Свой сервер</string>
+    <string name="server_intro_t">Отправка данных на ваш сервер</string>
+    <string name="server_intro">Сервер, совместимый с Life-Tracker API (POST /ingest). Данные часов остаются на телефоне, а копия отправляется на этот сервер — например, чтобы её читал ИИ-ассистент. Пока вы не включите, ничего не отправляется.</string>
+    <string name="server_url_hint">Адрес сервера (https://…)</string>
+    <string name="server_url_hint_debug">Адрес сервера (https://… или http://100.x.x.x:8787)</string>
+    <string name="server_token">Токен</string>
+    <string name="server_testing">Проверка…</string>
+    <string name="server_test">Проверить</string>
+    <string name="server_test_ok">Подключение работает ✓</string>
+    <string name="server_save">Сохранить и включить</string>
+    <string name="server_status">Состояние</string>
+    <string name="server_enabled">Отправка включена</string>
+    <string name="server_last">Последняя отправка</string>
+    <string name="server_last_none">ещё не было</string>
+    <string name="server_pending">Записей в очереди</string>
+    <string name="server_rejected">Записи, отклонённые сервером</string>
+    <string name="server_last_error">Последняя ошибка</string>
+    <string name="server_sending">Отправка…</string>
+    <string name="server_send_now">Отправить сейчас</string>
+    <string name="server_err_https">В релизной версии работают только адреса https://</string>
+    <string name="server_err_token">Неверный токен (сервер %1$d)</string>
+    <string name="server_err_http">Ответ сервера %1$d: %2$s</string>
+    <string name="server_err_network">Не удалось подключиться: %1$s</string>
+
+    <!-- Bugun ekrani -->
+    <string name="today_friend">друг</string>
+    <string name="watch_chip_connected">Подключены</string>
+    <string name="watch_chip_connecting">Подключение</string>
+    <string name="watch_chip_confirm">Подтвердите на часах</string>
+    <string name="watch_chip_bt_off">Bluetooth выкл.</string>
+    <string name="watch_chip_disconnected">Отключены</string>
+    <string name="watch_chip_unpaired">Нет часов</string>
+    <string name="today_pair_title">Подключите часы</string>
+    <string name="today_pair_body">Шаги, пульс, сон и другие показатели поступают с часов</string>
+    <string name="today_empty_title">Данных пока нет</string>
+    <string name="today_empty_body">Значения шагов и пульса ещё анализируются. История часов сохраняется на телефоне.</string>
+    <plurals name="unit_steps" tools:ignore="ImpliedQuantity">
+        <item quantity="one">шаг</item>
+        <item quantity="few">шага</item>
+        <item quantity="many">шагов</item>
+        <item quantity="other">шага</item>
+    </plurals>
+    <string name="metric_steps">Шаги</string>
+    <string name="metric_distance">Расстояние</string>
+    <string name="metric_calories">Калории</string>
+    <string name="unit_kcal">ккал</string>
+    <string name="unit_bpm">уд/мин</string>
+    <string name="unit_per_min">/мин</string>
+    <string name="unit_mmhg">мм рт. ст.</string>
+    <string name="today_of_goal">/ %1$s</string>
+    <string name="today_by_hour">По часам</string>
+    <string name="today_steps_phone">Шаги с датчика телефона (не часов), с момента открытия Orvell.</string>
+    <string name="today_heart_title">Пульс</string>
+    <string name="today_heart_sleep">Во сне</string>
+    <string name="today_min_value">мин %1$s</string>
+    <string name="today_avg_value">сред. %1$s</string>
+    <string name="today_max_value">макс %1$s</string>
+    <string name="today_heart_none">Данных о пульсе за сегодня пока нет</string>
+    <string name="today_sleep_title">Сон</string>
+    <string name="today_sleep_none">Значения сна пока не расшифрованы</string>
+    <string name="today_sleep_none_hint">История часов сохраняется на телефоне, но сон пока не показывается</string>
+    <string name="today_sleep_goal">цель %1$s</string>
+    <string name="stage_deep">Глубокий</string>
+    <string name="stage_light">Лёгкий</string>
+    <string name="stage_rem">REM</string>
+    <string name="stage_awake">Бодрствование</string>
+    <string name="today_stage_value">%1$s %2$s</string>
+    <string name="metric_oxygen_short">Кислород</string>
+    <string name="metric_pressure_short">Давление</string>
+    <string name="metric_breath_short">Дыхание</string>
+    <plurals name="today_spo2_avg">
+        <item quantity="one">сред. %1$d%% · %2$d замер</item>
+        <item quantity="few">сред. %1$d%% · %2$d замера</item>
+        <item quantity="many">сред. %1$d%% · %2$d замеров</item>
+        <item quantity="other">сред. %1$d%% · %2$d замера</item>
+    </plurals>
+    <string name="today_no_reading">нет замеров</string>
+    <string name="today_at_time">в %1$s</string>
+    <string name="today_week_avg">Среднее за неделю</string>
+    <plurals name="today_days_at_goal">
+        <item quantity="one">%1$d день с целью</item>
+        <item quantity="few">%1$d дня с целью</item>
+        <item quantity="many">%1$d дней с целью</item>
+        <item quantity="other">%1$d дня с целью</item>
+    </plurals>
+    <string name="today_this_week">Эта неделя</string>
+
+    <!-- Ko'rsatkichlar va batafsil ekran -->
+    <string name="kind_activity">Активность</string>
+    <string name="kind_heart">Пульс</string>
+    <string name="kind_sleep">Сон</string>
+    <string name="kind_oxygen">Кислород в крови</string>
+    <string name="kind_pressure">Давление</string>
+    <string name="kind_breath">Дыхание</string>
+    <string name="about_activity">Шаги считает датчик движения часов. Расстояние и калории оцениваются по шагам, росту и весу.</string>
+    <string name="about_heart">Пульс берётся из истории часов: одно значение на 5 минут, хранится на телефоне.</string>
+    <string name="about_sleep">Ночью часы определяют фазы сна по движению и пульсу. Ночь может записываться частями — Orvell объединяет части с перерывами до 2 часов в одну ночь.</string>
+    <string name="about_oxygen">SpO₂ — насыщение крови кислородом. Наручные часы измеряют менее точно, чем медицинский пульсоксиметр.</string>
+    <string name="about_pressure">Наручные часы лишь ОЦЕНИВАЮТ давление оптическим датчиком. Это не заменяет тонометр с манжетой.</string>
+    <string name="about_breath">Частота дыхания в минуту — часы оценивают её во время живого измерения.</string>
+    <string name="health_title">Здоровье</string>
+    <string name="health_subtitle">Последние 7 дней</string>
+    <plurals name="unit_steps_per_day" tools:ignore="ImpliedQuantity">
+        <item quantity="one">шаг/день</item>
+        <item quantity="few">шага/день</item>
+        <item quantity="many">шагов/день</item>
+        <item quantity="other">шага/день</item>
+    </plurals>
+    <string name="health_list">список замеров</string>
+    <string name="health_avg7">Среднее за 7 дней</string>
+    <plurals name="health_records">
+        <item quantity="one">%1$s запись на телефоне</item>
+        <item quantity="few">%1$s записи на телефоне</item>
+        <item quantity="many">%1$s записей на телефоне</item>
+        <item quantity="other">%1$s записи на телефоне</item>
+    </plurals>
+    <string name="health_since">" · с %1$s"</string>
+    <string name="health_local_only">" · хранится только на этом телефоне"</string>
+    <string name="health_no_data">Значений по этому показателю пока нет: история часов сохраняется, значения ещё не разобраны.</string>
+    <string name="detail_day">День</string>
+    <string name="detail_week">Неделя</string>
+    <string name="detail_month">Месяц</string>
+    <string name="detail_about">Об этом показателе</string>
+    <string name="detail_goal_line">Цель %1$s · %2$s</string>
+    <string name="detail_active_hours">Активные часы</string>
+    <string name="detail_avg">Среднее</string>
+    <string name="detail_min">Мин</string>
+    <string name="detail_max">Макс</string>
+    <string name="detail_readings">Замеры</string>
+    <string name="detail_sleep_none">За этот день сон не записан</string>
+    <string name="detail_in_bed">В постели</string>
+    <string name="detail_bed">Лёг</string>
+    <string name="detail_wake">Встал</string>
+    <string name="detail_asleep">Спал</string>
+    <string name="stage_deep_long">Глубокий сон</string>
+    <string name="stage_light_long">Лёгкий сон</string>
+    <string name="detail_stage_value">%1$s · %2$d%%</string>
+    <string name="detail_sleep_gap">%1$s между частями часы не записали как фазу.</string>
+    <string name="detail_last">Последнее</string>
+    <string name="detail_pressure_day_only">Давление показывается по дням — переключитесь на «День».</string>
+    <string name="detail_highest">Максимум</string>
+    <string name="detail_lowest">Минимум</string>
+    <string name="detail_at_goal">С целью</string>
+    <string name="detail_days">Дни</string>
+    <plurals name="detail_n_days">
+        <item quantity="one">%1$d день</item>
+        <item quantity="few">%1$d дня</item>
+        <item quantity="many">%1$d дней</item>
+        <item quantity="other">%1$d дня</item>
+    </plurals>
+    <string name="detail_total">Итого</string>
+    <string name="detail_no_period_data">Нет данных за этот период</string>
+
+    <!-- Qurilma va soat ulash -->
+    <string name="device_title">Устройство</string>
+    <string name="device_your_watch">Ваши часы</string>
+    <string name="device_watch_default">Часы</string>
+    <string name="device_not_paired">Часы не подключены</string>
+    <string name="device_not_paired_body">Поддерживаются часы, работающие с приложением FitCloudPro (FitCloud / TopStep).</string>
+    <string name="device_pair">Подключить часы</string>
+    <string name="device_error_title">Ошибка подключения</string>
+    <string name="device_error_hint">Если часы привязаны к другому приложению (например, FitCloudPro), сначала отвяжите их там.</string>
+    <string name="device_time">Время и дата</string>
+    <string name="device_time_sub">Берутся с телефона при каждом подключении</string>
+    <string name="device_bt_address">Адрес Bluetooth</string>
+    <string name="device_bind_id">ID привязки</string>
+    <string name="device_app_settings">Настройки приложения</string>
+    <string name="device_unpair">Отвязать часы</string>
+    <string name="device_unpair_sub">Часы отвязываются от приложения, данные остаются на телефоне</string>
+    <string name="device_unpair_title">Отвязать часы?</string>
+    <string name="device_unpair_body">Связь с часами прекратится. Собранные данные останутся на телефоне. Для повторного подключения нужно будет снова подтвердить на часах.</string>
+    <string name="device_unpair_confirm">Отвязать</string>
+    <string name="device_state_connected">Подключены</string>
+    <string name="device_state_connecting">Подключение…</string>
+    <string name="device_state_confirm">Подтвердите на часах</string>
+    <string name="device_state_bt_off">Bluetooth выключен</string>
+    <string name="device_state_disconnected">Отключены</string>
+    <string name="device_battery">Заряд %1$d%%</string>
+    <string name="device_synced_new">Синхронизировано: %1$s · новых записей: %2$d</string>
+    <string name="device_not_synced">Ещё не синхронизировано</string>
+    <string name="device_history_total">Сохранённых записей истории: %1$d</string>
+    <string name="device_sync">Синхронизировать</string>
+    <string name="device_syncing">Синхронизация…</string>
+    <string name="device_sync_need_connection">Для синхронизации подключите часы</string>
+    <string name="device_reconnect">Переподключить</string>
+    <string name="device_bt_off_banner">Bluetooth выключен — часы не подключатся</string>
+    <string name="device_bt_turn_on">Включить</string>
+    <string name="device_perm_banner">Нет разрешения «Устройства поблизости» — часы не подключатся</string>
+    <string name="device_open_app_settings">Открыть настройки приложения</string>
+    <string name="pair_title">Подключение часов</string>
+    <string name="pair_perm_title">Разрешение Bluetooth</string>
+    <string name="pair_perm_body">Orvell нужно разрешение «Устройства поблизости», чтобы найти часы и подключиться. Ваше местоположение не собирается.</string>
+    <string name="pair_perm_body_location">На Android 11 и старше система требует разрешение на геолокацию для поиска Bluetooth. Orvell не определяет и не сохраняет ваше местоположение.</string>
+    <string name="pair_perm_denied">Разрешение не выдано. Его можно включить в настройках приложения.</string>
+    <string name="pair_bt_title">Bluetooth выключен</string>
+    <string name="pair_bt_body">Включите Bluetooth для связи с часами.</string>
+    <string name="pair_bt_button">Включить Bluetooth</string>
+    <string name="pair_location_title">Геолокация выключена</string>
+    <string name="pair_location_body">На Android 11 и старше для поиска Bluetooth-устройств должна быть включена геолокация. Orvell не получает ваше местоположение.</string>
+    <string name="pair_location_button">Включить геолокацию</string>
+    <string name="pair_confirm_title">Подтвердите на экране часов</string>
+    <string name="pair_connecting_title">Подключение к %1$s…</string>
+    <string name="pair_confirm_body">На часах появился запрос на сопряжение — нажмите ✓.</string>
+    <string name="pair_connecting_body">Держите часы рядом с телефоном. Это может занять 10–30 секунд.</string>
+    <string name="pair_other_app_hint">Если часы привязаны к другому приложению (например, FitCloudPro), сначала отвяжите их там или удалите то приложение.</string>
+    <string name="pair_choose_other">Выбрать другие часы</string>
+    <string name="pair_done_title">Часы подключены</string>
+    <string name="pair_done_body">Часы подключены. Нажмите «Синхронизировать», чтобы получить историю.</string>
+    <string name="pair_later">Подключу позже</string>
+    <string name="scan_searching">Поиск часов…</string>
+    <string name="scan_done">Поиск завершён</string>
+    <string name="scan_hint">Часы должны быть включены и рядом с телефоном. Выберите свои часы из списка.</string>
+    <string name="scan_found">Найденные устройства</string>
+    <string name="scan_compatible">"Совместимы · "</string>
+    <string name="scan_signal">сигнал %1$s</string>
+    <string name="scan_none">Ничего не найдено. Включите экран часов и попробуйте снова.</string>
+    <string name="scan_again">Искать снова</string>
+    <string name="signal_excellent">отличный</string>
+    <string name="signal_good">хороший</string>
+    <string name="signal_fair">средний</string>
+    <string name="signal_weak">слабый</string>
+
+    <!-- Onboarding -->
+    <string name="onb_about_title">О вас</string>
+    <string name="onb_about_body">Для правильного расчёта расстояния и калорий. Эти данные не покидают телефон.</string>
+    <string name="onb_pair_title">Подключите часы</string>
+    <string name="onb_pair_body">Поддерживаются часы, работающие с FitCloudPro (FitCloud / TopStep).</string>
+    <string name="onb_feature1_t">Все показатели в одном месте</string>
+    <string name="onb_feature1">Подключение часов, синхронизация времени и хранение истории на телефоне</string>
+    <string name="onb_feature2_t">Данные принадлежат вам</string>
+    <string name="onb_feature2">Аккаунт не нужен. Ничего не уходит без вашего разрешения</string>
+    <string name="onb_feature3_t">Без рекламы и трекеров</string>
+    <string name="onb_feature3">Никаких библиотек аналитики и рекламы</string>
+    <string name="onb_start">Начать</string>
+    <string name="onb_storage_title">Где хранятся данные?</string>
+    <string name="onb_storage_body">Экспортировать или удалить их можно в любой момент: Настройки → Данные.</string>
+    <string name="onb_local_title">Только на этом телефоне</string>
+    <string name="onb_local_1">Не нужны аккаунт и интернет</string>
+    <string name="onb_local_2">Данные никуда не отправляются</string>
+    <string name="onb_local_3">При смене телефона — перенос через экспорт</string>
+    <string name="onb_goals_title">Цели на день</string>
+    <string name="onb_goals_body">Кольца заполняются относительно этих целей. Изменить можно позже в профиле.</string>
+    <string name="onb_goal_steps">Шаги</string>
+    <string name="onb_goal_sleep">Сон</string>
+    <string name="onb_notif_title">Уведомления</string>
+    <string name="onb_notif_body">Сообщим, когда связь с часами пропадёт. Без рекламы.</string>
+    <string name="onb_notif_granted">Разрешено</string>
+    <string name="onb_notif_requested">Будет запрошено разрешение</string>
+    <string name="onb_notif_denied">Не разрешено — оповещения не будут показаны. Можно включить позже в настройках системы.</string>
+    <string name="onb_notif_bt_later">Разрешение Bluetooth будет запрошено на следующем шаге, при поиске часов.</string>
+    <string name="onb_skip">Пропустить</string>
+    <string name="onb_done_title">Всё готово!</string>
+    <string name="onb_done_title_name">Всё готово, %1$s!</string>
+    <string name="onb_done_body">Часы подключены. Нажмите «Синхронизировать», чтобы получить историю.</string>
+    <string name="onb_open">Открыть Orvell</string>
+
+    <!-- Profil -->
+    <string name="profile_title">Профиль</string>
+    <string name="profile_name_placeholder">Ваше имя</string>
+    <plurals name="profile_age">
+        <item quantity="one">%1$d год</item>
+        <item quantity="few">%1$d года</item>
+        <item quantity="many">%1$d лет</item>
+        <item quantity="other">%1$d года</item>
+    </plurals>
+    <string name="profile_storage_local">Только на телефоне</string>
+    <string name="profile_with_orvell">С Orvell</string>
+    <plurals name="unit_days" tools:ignore="ImpliedQuantity">
+        <item quantity="one">день</item>
+        <item quantity="few">дня</item>
+        <item quantity="many">дней</item>
+        <item quantity="other">дня</item>
+    </plurals>
+    <string name="profile_30_days">За 30 дней</string>
+    <string name="profile_record">Рекорд</string>
+    <string name="profile_goals">Цели на день</string>
+    <string name="profile_goal_steps">Шаги</string>
+    <string name="profile_goal_sleep">Сон</string>
+    <string name="profile_goal_kcal">Активные калории</string>
+    <string name="profile_goal_distance">Расстояние</string>
+    <string name="profile_body">Тело</string>
+    <string name="profile_body_footer">Рост, вес, возраст и пол используются для расчёта расстояния и калорий. Эти данные не покидают телефон.</string>
+    <string name="profile_height">Рост</string>
+    <string name="profile_weight">Вес</string>
+    <string name="profile_bmi">Индекс массы тела</string>
+    <string name="profile_bmi_sub">Справочно, не диагноз</string>
+    <string name="profile_birth">Дата рождения</string>
+    <string name="profile_not_set">Не указана</string>
+    <string name="profile_choose">Выбрать</string>
+    <string name="profile_sex">Пол</string>
+    <string name="profile_male">Мужской</string>
+    <string name="profile_female">Женский</string>
+    <string name="profile_sex_unset">Не указан</string>
+    <string name="profile_sex_hide">Не указывать</string>
+    <string name="profile_privacy">Конфиденциальность</string>
+    <string name="profile_goal_steps_dialog">Цель по шагам</string>
+    <string name="profile_goal_sleep_dialog">Цель по сну</string>
+    <string name="profile_goal_kcal_dialog">Цель по активным калориям</string>
+    <string name="profile_goal_distance_dialog">Цель по расстоянию</string>
+    <string name="profile_edit_title">Редактировать профиль</string>
+    <string name="profile_name">Имя</string>
+
+    <!-- Bo'sh holatlar -->
+    <string name="detail_no_data_day">За этот день замеров нет</string>
+
+    <!-- Redizayn: umumiy (tugmalar tavsifi, grafiklar) -->
+    <string name="cd_back">Назад</string>
+    <string name="cd_close">Закрыть</string>
+    <string name="cd_previous">Предыдущий период</string>
+    <string name="cd_next">Следующий период</string>
+    <string name="cd_settings">Настройки</string>
+    <string name="cd_edit_profile">Редактировать профиль</string>
+    <string name="cd_avatar_color">Цвет аватара %1$d</string>
+    <string name="chart_goal">цель</string>
+    <string name="hypno_inspect">%1$s · %2$s–%3$s · %4$s</string>
+    <string name="hr_zones_title">Пульсовые зоны</string>
+    <string name="hr_zones_note">Оценка: максимальный пульс = 220 − возраст. Справочно.</string>
+    <string name="hr_zones_need_age">Укажите дату рождения в профиле, чтобы увидеть зоны.</string>
+    <string name="hr_zone_0">Покой</string>
+    <string name="hr_zone_1">Очень лёгкая</string>
+    <string name="hr_zone_2">Лёгкая</string>
+    <string name="hr_zone_3">Умеренная</string>
+    <string name="hr_zone_4">Высокая</string>
+    <string name="hr_zone_5">Максимальная</string>
+    <string name="rings_cd">Шаги %1$s из %2$s, расстояние %3$s, калории %4$s</string>
+    <string name="undo">Отменить</string>
+
+    <!-- Redizayn: Bugun -->
+    <string name="insight_sleep_more">Вы спали на %1$s больше, чем в среднем за неделю</string>
+    <string name="insight_sleep_less">Вы спали на %1$s меньше, чем в среднем за неделю</string>
+    <plurals name="insight_goal">
+        <item quantity="one">Цель на день выполнена — %1$s шаг</item>
+        <item quantity="few">Цель на день выполнена — %1$s шага</item>
+        <item quantity="many">Цель на день выполнена — %1$s шагов</item>
+        <item quantity="other">Цель на день выполнена — %1$s шага</item>
+    </plurals>
+    <plurals name="insight_streak">
+        <item quantity="one">%1$d день подряд цель выполнена</item>
+        <item quantity="few">%1$d дня подряд цель выполнена</item>
+        <item quantity="many">%1$d дней подряд цель выполнена</item>
+        <item quantity="other">%1$d дня подряд цель выполнена</item>
+    </plurals>
+    <plurals name="insight_steps_more">
+        <item quantity="one">На %1$s шаг больше, чем обычно</item>
+        <item quantity="few">На %1$s шага больше, чем обычно</item>
+        <item quantity="many">На %1$s шагов больше, чем обычно</item>
+        <item quantity="other">На %1$s шага больше, чем обычно</item>
+    </plurals>
+    <plurals name="insight_steps_less">
+        <item quantity="one">На %1$s шаг меньше, чем обычно</item>
+        <item quantity="few">На %1$s шага меньше, чем обычно</item>
+        <item quantity="many">На %1$s шагов меньше, чем обычно</item>
+        <item quantity="other">На %1$s шага меньше, чем обычно</item>
+    </plurals>
+    <string name="insight_hr_higher">Пульс во сне на %1$d уд/мин выше обычного</string>
+    <string name="insight_hr_lower">Пульс во сне на %1$d уд/мин ниже обычного</string>
+    <plurals name="insight_to_goal">
+        <item quantity="one">До цели %1$s шаг</item>
+        <item quantity="few">До цели %1$s шага</item>
+        <item quantity="many">До цели %1$s шагов</item>
+        <item quantity="other">До цели %1$s шага</item>
+    </plurals>
+    <string name="hint_tap_card">Нажмите на карточку, чтобы увидеть подробности</string>
+    <string name="today_open_details">Подробнее</string>
+
+    <!-- Redizayn: Salomatlik va batafsil -->
+    <string name="trend_up">↑ %1$d%%</string>
+    <string name="trend_down">↓ %1$d%%</string>
+    <string name="trend_up_cd">На %1$d%% больше, чем за предыдущие 7 дней</string>
+    <string name="trend_down_cd">На %1$d%% меньше, чем за предыдущие 7 дней</string>
+    <string name="detail_tooltip_hr">%1$s · %2$d уд/мин</string>
+    <string name="detail_tooltip_spo2">%1$s · %2$d%%</string>
+    <string name="detail_interact_hint">Нажмите или проведите по графику для точных значений</string>
+
+    <!-- Redizayn: Qurilma -->
+    <string name="device_unpair_pending">Часы будут отвязаны…</string>
+    <string name="device_watch_cd">Часы: %1$s, заряд %2$s</string>
+    <string name="device_charging">Заряжается</string>
+
+    <!-- Onboarding v2 -->
+    <string name="onb_step_cd">Шаг %1$d из %2$d</string>
+    <string name="onb_step_count">%1$d/%2$d</string>
+
+    <!-- Profil v2: seriya va yutuqlar -->
+    <string name="profile_streak_title">Серия</string>
+    <string name="profile_streak_best">Лучшая</string>
+    <string name="profile_streak_hint">Дни подряд с выполненной целью по шагам. Сегодняшний день не прерывает серию, пока не закончился.</string>
+    <string name="profile_streak_cd">Цель по шагам выполнена в %1$d из последних %2$d дней</string>
+    <string name="profile_achievements">Достижения</string>
+    <string name="profile_achievements_footer">По данным за последние 90 дней.</string>
+    <string name="profile_achievements_count">%1$d/%2$d</string>
+    <string name="ach_earned">Получено</string>
+    <string name="ach_progress">%1$s / %2$s</string>
+    <string name="ach_first_day">Первый день</string>
+    <string name="ach_first_day_d">Первые данные с часов</string>
+    <string name="ach_streak_3">3 дня подряд</string>
+    <string name="ach_streak_3_d">Цель по шагам 3 дня подряд</string>
+    <string name="ach_streak_7">Неделя</string>
+    <string name="ach_streak_7_d">Цель по шагам 7 дней подряд</string>
+    <string name="ach_streak_30">Месяц</string>
+    <string name="ach_streak_30_d">Цель по шагам 30 дней подряд</string>
+    <string name="ach_steps_10k">10 000 шагов</string>
+    <string name="ach_steps_10k_d">10 000 шагов за день</string>
+    <string name="ach_steps_20k">20 000 шагов</string>
+    <string name="ach_steps_20k_d">20 000 шагов за день</string>
+    <string name="ach_sleep_5">Хороший сон</string>
+    <string name="ach_sleep_5_d">Цель по сну выполнена 5 ночей</string>
+    <string name="ach_total_100k">100 000 шагов</string>
+    <string name="ach_total_100k_d">Всего за 90 дней</string>
+
+    <!-- Sozlamalar v2: qidiruv, qaytarish; litsenziyalar: shrift -->
+    <string name="settings_search">Поиск по настройкам</string>
+    <string name="settings_search_empty_t">Ничего не найдено</string>
+    <string name="settings_search_empty">Нет настроек по запросу «%1$s». Попробуйте другое слово.</string>
+    <string name="cd_clear_search">Очистить поиск</string>
+    <string name="settings_clear_pending">Измерения будут удалены</string>
+    <string name="licenses_fonts">Шрифты</string>
+    <string name="licenses_font_sub">Шрифт интерфейса</string>
+    <string name="licenses_show_ofl">Показать текст OFL 1.1</string>
+
+    <string name="legacy_notice">Значения ниже сохранены прежней версией. Их расшифровка не подтверждена, и они не обновляются.</string>
+    <string name="err_account">Строка аккаунта неверна (только ASCII, до 32 байт)</string>
+    <string name="err_no_bluetooth">Bluetooth недоступен</string>
+    <string name="err_connect_failed">Не удалось начать подключение</string>
+    <string name="err_discover">Не удалось найти службы</string>
+    <string name="err_services_status">Службы не найдены (код %1$d)</string>
+    <string name="err_service_missing">Служба часов не найдена</string>
+    <string name="err_channels_missing">Каналы часов не найдены</string>
+    <string name="err_notify_status">Не удалось включить уведомления (код %1$d)</string>
+    <string name="err_descriptor_missing">Дескриптор уведомлений не найден</string>
+    <string name="err_notify_write">Не удалось записать настройку уведомлений</string>
+    <string name="err_write_mtu">Запись отклонена (MTU=%1$d)</string>
+    <string name="err_write_mtu_bind">Не удалось отправить (MTU=%1$d)</string>
+    <string name="err_bind_rejected">Сопряжение отклонено (код ответа 0x%1$02X)</string>
+    <string name="err_write">Запись отклонена</string>
+    <string name="err_unbind_nores">Часы не ответили на запрос отключения</string>
+    <string name="err_unbind_rejected">Часы отклонили отключение (код 0x%1$02X)</string>
+    <string name="err_hist_pending">История: неверный ожидаемый размер</string>
+    <string name="err_hist_length">История: неожиданный размер записи</string>
+    <string name="err_hist_second">История: неожиданная вторая запись для счётчика</string>
+    <string name="err_hist_size">Размер записи истории не совпадает</string>
+    <string name="err_hist_store">Запись истории не сохранена</string>
+    <string name="err_hist_timeout">Часы не ответили на запрос истории</string>
+    <string name="err_hist_mismatch">История: размер записи дважды пришёл разный</string>
+    <string name="err_face_rejected">Часы не приняли циферблат</string>
+    <string name="err_face_disconnected">Связь прервалась во время отправки циферблата</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Monoxrom belgi (Android 13+ "Themed icons"): bir rang, tizim o'zi bo'yaydi. Shakli asosiy belgi bilan bir xil. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group android:pivotX="54" android:pivotY="54" android:rotation="-28">
+        <path android:pathData="M23,54 a31,11.5 0 1,0 62,0 a31,11.5 0 1,0 -62,0" android:strokeWidth="1.8" android:strokeAlpha="0.6" android:strokeColor="#FFFFFF" android:fillColor="#00000000" />
+    </group>
+    <path android:pathData="M54.00,32.00 A22,22 0 1,1 33.33,46.48" android:strokeWidth="6" android:strokeLineCap="round" android:strokeColor="#FFFFFF" android:fillColor="#00000000" />
+    <path android:pathData="M54.00,41.00 A13,13 0 1,1 47.50,65.26" android:strokeWidth="6" android:strokeLineCap="round" android:strokeColor="#FFFFFF" android:fillColor="#00000000" />
+    <path android:pathData="M51.40,54.00 a2.6,2.6 0 1,0 5.20,0 a2.6,2.6 0 1,0 -5.20,0" android:fillColor="#FFFFFF" />
+    <path android:pathData="M71.59,36.40 a4.2,4.2 0 1,0 8.40,0 a4.2,4.2 0 1,0 -8.40,0" android:fillColor="#FFFFFF" />
+</vector>
